@@ -1,4 +1,4 @@
-# Code erklärt
+# Taschenrechner Code
 
 Einige Wichtige Librarys werden eingebunden, am auffälligsten hier ist die SFML familie.
 
