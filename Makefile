@@ -1,5 +1,11 @@
 test:
-	@cd Pathtracer && \
-	g++ test.cpp &&  \
-	./a.out
+	@g++ Pathtracer/test.cpp -o Pathtracer/bin/test
+	@./Pathtracer/bin/test
+
+
+build:
+	@g++ Pathtracer/test.cpp -o Pathtracer/bin/test
+
+install:
 	
+run: test
