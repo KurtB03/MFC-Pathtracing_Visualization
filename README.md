@@ -8,7 +8,7 @@ Q2 Project
     
 ## User Stories
 
-|Eintrag Nr. | Rolle | Funktion | Grund | Priorität (1-10)| Status | Assinged to |
-|------------|:-----:|:--------:|:-----:|:---------:|:------:|-----:|
-|1| User | Labyrinth generieren |   | 10 | Pending | Kurt |
-|2| 
+|Eintrag Nr. | Rolle    | Funktion                           | Grund                             | Priorität (1-10)| Status     | Assinged to |
+|------------|:--------:|:----------------------------------:|:---------------------------------:|:---------------:|:----------:|------------:|
+|1           | User     | Labyrinth generieren               |                                   | 10              | Pending    | Kurt        |
+|2           |          |                                    |                                   |                 |            |             |
