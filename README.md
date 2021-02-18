@@ -5,3 +5,10 @@ Q2 Project
     1. von User Erstelltes Labyrinth Lösen
     2. User kann Algorithmus auswählen und Automatisch Labyrinth Erstellen
     3. Lösung wird Animiert 
+    
+## User Stories
+
+|Eintrag Nr. | Rolle | Funktion | Grund | Priorität (1-10)| Status | Assinged to |
+|------------|:-----:|:--------:|:-----:|:---------:|:------:|-----:|
+|1| User | Labyrinth generieren |   | 10 | Pending | Kurt |
+|2| 

@@ -1,6 +1,4 @@
 namespace dij {
-	class Node;
-
 	class Node {
 		private:
 			int x;
@@ -37,7 +35,9 @@ namespace dij {
 			void setParent(Node* n){
 				parent = n;
 			}
-
+			void setDistanz(int d){
+				distanz = d;
+			}
 			void setStart(bool s){
 				is_start = s;
 			}
@@ -45,6 +45,18 @@ namespace dij {
 				is_end = e;
 			}
 
+			Node* getNeighbour(int index){
+				return neigbours[index];
+			}
+			int getNeighbourWeight(int index){
+				return neigbour_weights[index];
+			}
+			int getDistance(){
+				return distanz;
+			}
+			Node* getParent(){
+				return parent;
+			}
 			void removeNeighbour(Node* n){
 				for(auto i : neigbours){
 					if(i == n){
