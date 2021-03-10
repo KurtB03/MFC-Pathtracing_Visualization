@@ -18,3 +18,12 @@ Q2 Project
 | 6           | User     | Lösungsweg Animieren               | Optik                             | 4               | Pending     | Kurt + Philipp |
 | 7           | User     | Verschiedene Algorithmen Auswahl   | Extra                             | 4               | Pending     | Kurt           |
 | 8           | User     | Menus                              | Bedienbarkeit + Optik             | 1               | Pending     | Philipp        |
+
+## Sprint Backlog - Sprint 1
+
+Zu bearbeitende User-Storys : 1, 3 + ggf. 2, 5
+
+| Eintrag Nr.| Aufgabe | Zu Story Nr. | Ziel | Assinged to | Zeit Aufwand | Status |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 1 | Labyrinth Nodes | 1 | Klasse zur Representation der Labyrinth abschnitte | Kurt | 4 | Pending 
+| 2 | |
