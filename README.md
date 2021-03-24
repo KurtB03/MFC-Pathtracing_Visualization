@@ -1,12 +1,15 @@
 # Scrum <3 GitHub & OpenGL für Dummies
+
 Q2 Project
 
 ## Product Backlog
+
     1. Scrum Project Management mit GitHub und Markdown
     2. OpenGL die Basics
     3. Verständlich für Schüler und Normal-Sterbliche
 
 ## User Storys
+
 |Nr. | Funktion | Grund | Beschreibung | Priorität | Schwierigkeit | Status | Vorausetung |
 |:--:|:----:|:----:|:-----:|:----:|:---:|:--:|:--:|
 |1   | GitHub Basics | Grund Verständniss um die Restlichen Punkte zu verstehen | We are going on an Adventure | 10 | 1 | in Progress | - |
@@ -23,6 +26,7 @@ Q2 Project
 |12 | Dokumetation | Zum Kichern und Erinnern | It's the job that's never started as takes longest to finish. | 10 | 0 | running alongside | **∞**|
 
 ## Sprint 1
+
  |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Status | Definition of Done |
  |:-:|:--:|:--:|:--:|:--:|:--:|:--:|
  |1  |1 | Pull, Fetch, Push| 1std | Patrick | Done | Grundlegende online Zusammenarbeit | 
