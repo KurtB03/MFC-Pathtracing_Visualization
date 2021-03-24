@@ -1,7 +1,6 @@
 test:
-	@g++ Pathtracer/test.cpp -o Pathtracer/bin/test
+	@g++ ./Pathtracer/test.cpp -o ./Pathtracer/bin/test
 	@./Pathtracer/bin/test
-
 
 build:
 	@g++ Pathtracer/test.cpp -o Pathtracer/bin/test
@@ -9,3 +8,6 @@ build:
 install:
 	
 run: test
+
+
+check : test

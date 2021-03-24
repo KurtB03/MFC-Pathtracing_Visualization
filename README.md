@@ -9,4 +9,6 @@ Q2 Project
 ## User Storys
 |Nr. | Funktion | Grund | Priorität |
 |:--:|:--------:|:-----:|:---------:|
-|1   | GitHub Basics | We are going on an Adventure | 10 | 
+|1   | GitHub Basics | We are going on an Adventure | 10 |
+|2| Markdow 101 |  | 10 |
+|3| CD/CI Pipelines | Taking the Hobbits to Isengard | 6 |
