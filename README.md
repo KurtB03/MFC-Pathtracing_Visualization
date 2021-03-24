@@ -23,13 +23,13 @@ Q2 Project
 |12 | Dokumetation | Zum Kichern und Erinnern | It's the job that's never started as takes longest to finish. | 10 | 0 | running alongside | **∞**|
 
 ## Sprint 1
- |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Staus |
- |:-:|:--:|:--:|:--:|:--:|:--:|
- |1  |1 | Pull, Fetch, Push| 1std | Patrick | Done |
- |2  |1 | Merge Conflicte | 1,5std | Patrick & Kurt | Done |
+ |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Status | Definition of Done |
+ |:-:|:--:|:--:|:--:|:--:|:--:|:--:|
+ |1  |1 | Pull, Fetch, Push| 1std | Patrick | Done | Grundlegende online Zusammenarbeit | 
+ |2  |1 | Merge Conflicte | 1,5std | Patrick & Kurt | Done | 
  |3  |1 | .gitignore | 2std. | Kurt | Done |
  |4  |2 | Verünftige Tabellen | 1,5std | Kurt | Done |
  |5  |2 | Style Modifiers | 2std. | Patrick | Done |
  |6  |- | Projekt Wechsel | 10std. | Patrick & Kurt | Almost Done |
  |7  |12| Aufschreiben | 3std. | Patrick | In Progress |
- |8  |13| SCRUM tracking | 5std. | Patrick & Kurt | In Progress |
+ |8  |13| SCRUM tracking | 6std. | Patrick & Kurt | In Progress |
