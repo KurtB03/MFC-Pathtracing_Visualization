@@ -1,37 +1,34 @@
 namespace dij {
-	class Node {
-		private:
-			int x;
-			int y;
+  class Node {
+  private:
+    int x;
+    int y;
+    bool is_start;
+    bool is_end;
+    Node* neigbours[4];
+    int neigbour_weights[4];
 
-			bool is_start;
-			bool is_end;
+    int distanz;
+    Node* parent;
 
-			Node* neigbours[4];
-			int neigbour_weights[4];
-
-			int distanz;
-			Node* parent;
-
-		public:
-
-			void setNeighbour(Node* n, int index){
-				neigbours[index] = n;
-			}
-			void setNeighbour(Node* n, int index, int weight){
-				neigbours[index] = n;
-				neigbour_weights[index] = weight;
-			}
-			void setNeighbourWeight(Node* n, int w){
-				int i = 0;
-				for(auto ni : neigbours){
-					if(ni == n){
-						neigbour_weights[i] = w;
-						break;
-					}
-					i++;
-				}
-			}
+  public:
+    void setNeighbour(Node* n, int index){
+      neigbours[index] = n;
+    }
+    void setNeighbour(Node* n, int index, int weight){
+      neigbours[index] = n;
+      neigbour_weights[index] = weight;
+    }
+    void setNeighbourWeight(Node* n, int w){
+      int i = 0;
+      for(auto ni : neigbours){
+	if(ni == n){
+	  neigbour_weights[i] = w;
+	  break;
+	}
+	i++;
+      }
+    }
 			void setParent(Node* n){
 				parent = n;
 			}
@@ -111,4 +108,4 @@ namespace dij {
 
 
 
-}
+													       }
