@@ -18,5 +18,3 @@ Q2 Project
 |7   | Beispiel Project : Taschenrechner in Open Gl | | Certainty of death. Small chance of success. What are we waiting for? | 8 | 10|
 |8   | FAQ der größten Fehler | | "Are you frightened?" "Yes." "Not nearly frightened enough." | 6 | 7 |
 |9   | Hand-Out, der Wichtigsten Befehle | | Nine companions. So be it. | 4 | 3 |
-
-
