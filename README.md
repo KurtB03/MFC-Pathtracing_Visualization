@@ -18,9 +18,18 @@ Q2 Project
 |7   | Beispiel Project : Taschenrechner in Open Gl | Um Darzustellen wie man mit OpenGl Arbeiten kann | Certainty of death. Small chance of success. What are we waiting for? | 8 | 10| pending | 4 |
 |8   | FAQ der größten Fehler | um hilfe zu leisten wie man den Start weniger Holbrig macht | "Are you frightened?" "Yes." "Not nearly frightened enough." | 6 | 7 | pending | - |
 |9   | Hand-Out, der Wichtigsten Befehle | um den Einstieg zu Erleichtern | Nine companions. So be it. | 4 | 3 | pending | - |
-|10  | Präsentation | | | 9 | 2 | pending | 1, 2, 4, 5 |
-|11  | Redakionelle aufbereitung | | | 4 | 7 | imagined | 1-9 |
+|10  | Präsentation | Vorstellung des Projektes, unterrichten der Klasse | We swears, to serve the master of the Precious. We will swear on… on the Precious | 9 | 2 | pending | 1, 2, 4, 5 |
+|11  | Redakionelle aufbereitung | Ergebnisse Festhalten für die Nachwelt - Herr. Schwaigers Job machen | Oh, it’s quite simple. If you are a friend, you speak the password, and the doors will open | 4 | 7 | imagined | 1-9 + 12 |
+|12 | Dokumetation | Zum Kichern und Erinnern | It's the job that's never started as takes longest to finish. | 10 | 0 | running alongside | **∞**|
 
 ## Sprint 1
- | Zu Story Nr. | Aufgabe | Zeitaufwand | Assinged To | Staus |
- |:--:|:--:|:--:|:--:|:--:|
+ |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Staus |
+ |:-:|:--:|:--:|:--:|:--:|:--:|
+ |1  |1 | Pull, Fetch, Push| 1std | Patrick | Done |
+ |2  |1 | Merge Conflicte | 1,5std | Patrick & Kurt | Done |
+ |3  |1 | .gitignore | 2std. | Kurt | Done |
+ |4  |2 | Verünftige Tabellen | 1,5std | Kurt | Done |
+ |5  |2 | Style Modifiers | 2std. | Patrick | Done |
+ |6  |- | Projekt Wechsel | 10std. | Patrick & Kurt | Almost Done |
+ |7  |12| Aufschreiben | 3std. | Patrick | In Progress |
+ |8  |13| SCRUM tracking | 5std. | Patrick & Kurt | In Progress |
