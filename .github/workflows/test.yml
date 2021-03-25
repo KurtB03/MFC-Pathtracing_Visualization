@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: prepare
+      run:  sudo apt-get install git make
     - name: make
       run:  cd OpenGL && \
             make build
