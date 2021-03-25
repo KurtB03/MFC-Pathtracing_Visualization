@@ -14,6 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: prepare
-      run: sudo apt-get install mingw-w64
+      run:  sudo apt-get install mingw-w64
     - name: make
-      run: make release
+      run:  cd OpenGL && \
+            make release

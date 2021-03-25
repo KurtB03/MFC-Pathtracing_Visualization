@@ -1,12 +1,12 @@
 #Vars
 COMMIT = $(shell git rev-parse --short HEAD)
-NAME = Cube
+NAME = Main
 VERSION = $(NAME)-$(COMMIT) 
 WORKSPACE = $(shell pwd)
 BIN = $(WORKSPACE)/bin/$(VERSION)
 LDFLAGS = -lGL -lGLU -lglut
 MINGWFLAGS = -lglfw -lglu32 -lopengl32 -lm -s -mwindows
-FILE = $(WORKSPACE)/src/cube.cpp
+FILE = $(WORKSPACE)/src/main.cpp
 #LIB = $(WORKSPACE)/src/lib/$(wildcard *.hpp)
 
 
@@ -27,7 +27,7 @@ release: package-exe package-deb package-rpm package-src
 	
 package-exe:
 	x86_64-w64-mingw32-g++ $(FILE) -o $(BIN) $(MINGWFLAGS)
-	#TODO: cross-compile
+	#TODO: opengl
 
 package-deb: 
     #TODO: deb config
