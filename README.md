@@ -5,35 +5,34 @@ Q2 Project
 ## Product Backlog
 
     1. Scrum Project Management mit GitHub und Markdown
-    2. OpenGL die Basics
+    2. OpenGL die Grundlagen
     3. Verständlich für Schüler und Normal-Sterbliche
 
 ## User Storys
 
 |Nr. | Funktion | Grund | Beschreibung | Priorität | Schwierigkeit | Status | Vorausetung |
 |:--:|:----:|:----:|:-----:|:----:|:---:|:--:|:--:|
-|1   | GitHub Basics | Grund Verständniss um die Restlichen Punkte zu verstehen | We are going on an Adventure | 10 | 1 | in Progress | - |
-|2   | Markdow 101 | um Texte schön und leserlich zu Gestalten | I found it is the small everyday deeds of ordinary folk that keep the darkness at bay. | 10 | 2 | in Progress | - |
-|3   | CD/CI Pipelines | Automatisierte Tests. Erleichterte zusammenarbeit | You shall not Pass | 6 | 7 | pending | 5 |
-|4   | OpenGL | um Hoffentlich MFC abzuschaffen | I shall claim full amends for every fall and stubbed toe, if you do not lead us well. | 10 | 9 | Pending | - |
-|5   | Make files 101 | Anweisungen für Pipelines und Generalisierung | Taking the Hobbits to Isengard | 7 | 5 | pending | - |
-|6   | SCRUM recap | um an Beispielen Anzuzeigen wie man Scrum in Github verwenden kann | A wizard is never late, Frodo Baggins. Nor is he early; he arrives precisely when he means to. | 1 | 1 | pending | - |
-|7   | Beispiel Project : Taschenrechner in Open Gl | Um Darzustellen wie man mit OpenGl Arbeiten kann | Certainty of death. Small chance of success. What are we waiting for? | 8 | 10| pending | 4 |
-|8   | FAQ der größten Fehler | um hilfe zu leisten wie man den Start weniger Holbrig macht | "Are you frightened?" "Yes." "Not nearly frightened enough." | 6 | 7 | pending | - |
-|9   | Hand-Out, der Wichtigsten Befehle | um den Einstieg zu Erleichtern | Nine companions. So be it. | 4 | 3 | pending | - |
-|10  | Präsentation | Vorstellung des Projektes, unterrichten der Klasse | We swears, to serve the master of the Precious. We will swear on… on the Precious | 9 | 2 | pending | 1, 2, 4, 5 |
+|1   | GitHub Grundlagen | Grund Verständniss um die Restlichen Punkte zu verstehen | We are going on an Adventure | 10 | 1 | In Bearbeitung | - |
+|2   | Markdown Grundlagen | um Texte schön und leserlich zu Gestalten | I found it is the small everyday deeds of ordinary folk that keep the darkness at bay. | 10 | 2 | in Bearbeitung | - |
+|3   | CD/CI Pipelines | Automatisierte Tests. Erleichterte zusammenarbeit | You shall not Pass | 6 | 7 | Austehend | 5 |
+|4   | OpenGL | um Hoffentlich MFC abzuschaffen | I shall claim full amends for every fall and stubbed toe, if you do not lead us well. | 10 | 9 | Austehend | - |
+|5   | Make files Grundlagen | Anweisungen für Pipelines und Generalisierung | Taking the Hobbits to Isengard | 7 | 5 | Austehend | - |
+|6   | SCRUM Wiederholung | um an Beispielen Anzuzeigen wie man Scrum in Github verwenden kann | A wizard is never late, Frodo Baggins. Nor is he early; he arrives precisely when he means to. | 1 | 1 | Austehend | - |
+|7   | Beispiel Projekt : Taschenrechner in Open Gl | Um Darzustellen wie man mit OpenGl Arbeiten kann | Certainty of death. Small chance of success. What are we waiting for? | 8 | 10| Austehend | 4 |
+|8   | FAQ der größten Fehler | um hilfe zu leisten wie man den Start weniger Holbrig macht | "Are you frightened?" "Yes." "Not nearly frightened enough." | 6 | 7 | Austehend | - |
+|9   | Hand-Out, der Wichtigsten Befehle | um den Einstieg zu Erleichtern | Nine companions. So be it. | 4 | 3 | Austehend | - |
+|10  | Präsentation | Vorstellung des Projektes, unterrichten der Klasse | We swears, to serve the master of the Precious. We will swear on… on the Precious | 9 | 2 | Austehend | 1, 2, 4, 5 |
 |11  | Redakionelle aufbereitung | Ergebnisse Festhalten für die Nachwelt - Herr. Schwaigers Job machen | Oh, it’s quite simple. If you are a friend, you speak the password, and the doors will open | 4 | 7 | imagined | 1-9 + 12 |
-|12 | Dokumetation | Zum Kichern und Erinnern | It's the job that's never started as takes longest to finish. | 10 | 0 | running alongside | **∞**|
+|12 | Dokumetation | Zum Kichern und Erinnern | It's the job that's never started as takes longest to finish. | 10 | 0 | Beiläufig | **∞**|
 
 ## Sprint 1
-
- |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Status | Definition of Done |
+ |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Status | Definition von Fertig |
  |:-:|:--:|:--:|:--:|:--:|:--:|:--:|
- |1  |1 | Pull, Fetch, Push| 1std | Patrick | Done | Grundlegende online Zusammenarbeit | 
- |2  |1 | Merge Conflicte | 1,5std | Patrick & Kurt | Done | 
- |3  |1 | .gitignore | 2std. | Kurt | Done |
- |4  |2 | Verünftige Tabellen | 1,5std | Kurt | Done |
- |5  |2 | Style Modifiers | 2std. | Patrick | Done |
- |6  |- | Projekt Wechsel | 10std. | Patrick & Kurt | Almost Done |
- |7  |12| Aufschreiben | 3std. | Patrick | In Progress |
- |8  |13| SCRUM tracking | 6std. | Patrick & Kurt | In Progress |
+ |1  |1 | Pull, Fetch, Push Grundlegende online Zusammenarbeit| 1std | Patrick | Fertig | Repo was funktioniert und verstanden werden kann | 
+ |2  |1 | Merge Konflikte Erklären, Probleme eigenständig Lösen | 1,5std | Patrick & Kurt | Fertig | Probleme eigenständig Lösen |
+ |3  |1 | .gitignore Erklärung der Funktion, Halte deine Repositorys Sauber | 2std. | Kurt | Fertig | gitignore eingerichtet und Repo ist und **bleibt** Sauber |
+ |4  |2 | Verünftige Tabellen Erstellen, Ordnung ist das Halbe Leben | 1,5std | Kurt | Fertig | Wunderschöne Tabelle Fertig (wer das liest hat es geschafft) |
+ |5  |2 | Style Modifiers Befehle, das Große Umstyling | 2std. | Patrick | Fertig | Ausdruck deiner Seele |
+ |6  |- | Projekt Wechsel | 10std. | Patrick & Kurt | fast Fertig | **Hoelle!** |
+ |7  |12| Aufschreiben, \*Klang einer Schreibmaschine\*, Dokumentation ist Wichtig | 3std. | Patrick | In Bearbeitung | Ewiger Kreislauf |
+ |8  |13| SCRUM | 6std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
