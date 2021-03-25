@@ -26,9 +26,10 @@ Q2 Project
 |12 | Dokumetation | Zum Kichern und Erinnern | It's the job that's never started as takes longest to finish. | 10 | 0 | Beiläufig | **∞**|
 
 ## Sprint 1
+
  |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Status | Definition von Fertig |
  |:-:|:--:|:--:|:--:|:--:|:--:|:--:|
- |1  |1 | Pull, Fetch, Push Grundlegende online Zusammenarbeit| 1std | Patrick | Fertig | Repo was funktioniert und verstanden werden kann | 
+ |1  |1 | Pull, Fetch, Push Grundlegende online Zusammenarbeit| 1std | Patrick | Fertig | Repo was funktioniert und verstanden werden kann |
  |2  |1 | Merge Konflikte Erklären, Probleme eigenständig Lösen | 1,5std | Patrick & Kurt | Fertig | Probleme eigenständig Lösen |
  |3  |1 | .gitignore Erklärung der Funktion, Halte deine Repositorys Sauber | 2std. | Kurt | Fertig | gitignore eingerichtet und Repo ist und **bleibt** Sauber |
  |4  |2 | Verünftige Tabellen Erstellen, Ordnung ist das Halbe Leben | 1,5std | Kurt | Fertig | Wunderschöne Tabelle Fertig (wer das liest hat es geschafft) |
@@ -36,19 +37,19 @@ Q2 Project
  |6  |- | Projekt Wechsel | 10std. | Patrick & Kurt | fast Fertig | **Hoelle!** |
  |7  |12| Aufschreiben, \*Klang einer Schreibmaschine\*, Dokumentation ist Wichtig | 3std. | Patrick | In Bearbeitung | Ewiger Kreislauf |
  |8  |13| SCRUM | 6std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
- 
- ## Sprint 1 Auswertung
- 
+
+## Sprint 1 Auswertung
+
  *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?* \
 Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
- 
+
  *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
  Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
- 
- ## Sprint 1 Retroperspektive
- 
+
+## Sprint 1 Retroperspektive
+
  *Wurde das Sprint-Ziel mit dem Produktinkrement erreicht ?* \
  Ja denn wir haben es Geschafft das Projekt zu ändern und MFC loszuwerden.
- 
+
  *Was könnte man bis zum Nächsten Sprint verbessern ?* \
  die Arbeitzeit aufdröseln sodass wir nicht nur an einem Tag Arbeiten, und weniger Zeit mit dem Projekt wechsel verbringen.
