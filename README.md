@@ -33,3 +33,19 @@ Q2 Project
  |6  |- | Projekt Wechsel | 10std. | Patrick & Kurt | fast Fertig | **Hoelle!** |
  |7  |12| Aufschreiben, \*Klang einer Schreibmaschine\*, Dokumentation ist Wichtig | 3std. | Patrick | In Bearbeitung | Ewiger Kreislauf |
  |8  |13| SCRUM | 6std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
+ 
+ ## Sprint 1 Auswertung
+ 
+ *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?* \
+Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
+ 
+ *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
+ Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
+ 
+ ## Sprint 1 Retroperspektive
+ 
+ *Wurde das Sprint-Ziel mit dem Produktinkrement erreicht ?* \
+ Ja denn wir haben es Geschafft das Projekt zu ändern und MFC loszuwerden.
+ 
+ *Was könnte man bis zum Nächsten Sprint verbessern ?* \
+ die Arbeitzeit aufdröseln sodass wir nicht nur an einem Tag Arbeiten, und weniger Zeit mit dem Projekt wechsel verbringen.
