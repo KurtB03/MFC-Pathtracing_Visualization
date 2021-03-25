@@ -6,7 +6,7 @@ WORKSPACE = $(shell pwd)
 BIN = $(WORKSPACE)/bin/$(VERSION)
 LDFLAGS = -lGL -lGLU -lglut
 MINGWFLAGS = -lglfw -lglu32 -lopengl32 -lm -s -mwindows
-FILE = $(WORKSPACE)/src/main.cpp
+FILE = $(WORKSPACE)/src/cube.cpp
 #LIB = $(WORKSPACE)/src/lib/$(wildcard *.hpp)
 
 
