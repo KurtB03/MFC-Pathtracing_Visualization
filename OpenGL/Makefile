@@ -15,8 +15,6 @@ build:
 	#TODO: build
 	-mkdir $(WORKSPACE)/bin
 	g++ $(FILE) -o $(BIN) $(CFLAGS) $(LDFLAGS)
-	echo $(COMMIT)
-	echo $(VERSION)
 	#TODO: lib
 
 #Package
