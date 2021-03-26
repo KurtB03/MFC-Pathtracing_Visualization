@@ -1,31 +1,40 @@
 #Vars
 COMMIT = $(shell git rev-parse --short HEAD)
-NAME = Main
-VERSION = $(NAME)-$(COMMIT) 
+NAME = cube
+VERSION = $(NAME)-$(COMMIT)
 WORKSPACE = $(shell pwd)
 BIN = $(WORKSPACE)/bin/$(VERSION)
-LDFLAGS = -lGL -lGLU -lglut
-MINGWFLAGS = -lglfw -lglu32 -lopengl32 -lm -s -mwindows
+HOME = $(shell echo $$HOME)
+LDFLAGS = -lGL -lGLU -lglut -I$(LIB)
+MINGWFLAGS = -lglu32 -lglfw
 FILE = $(WORKSPACE)/src/cube.cpp
-#LIB = $(WORKSPACE)/src/lib/$(wildcard *.hpp)
+LIB = $(WORKSPACE)/src/lib
 
 
 #Compile
 build:
 	#TODO: build
 	-mkdir $(WORKSPACE)/bin
-	g++ $(FILE) -o $(BIN) $(CFLAGS) $(LDFLAGS)
+	g++ $(FILE) $(CFLAGS) $(LDFLAGS) -o $(BIN)
 	#TODO: lib
 
 #Package
 install: build
+	chmod +x bin/$(VERSION)
+	mkdir -p $(HOME)/bin/$(NAME)
+	cp bin/$(VERSION) $(HOME)/bin/$(NAME)/$(COMMIT)
+	sudo ln -s $(HOME)/bin/$(NAME)/$(COMMIT) /usr/local/bin/$(NAME)
 	#TODO: install
 
-release: package-exe package-deb package-rpm package-src
+release: package-deb package-rpm package-src
 	
 package-exe:
-	x86_64-w64-mingw32-g++ $(FILE) -o $(BIN) $(MINGWFLAGS)
+	-mkdir $(WORKSPACE)/bin
+	export GNU_HOST=x86_64-w64-mingw32
+	x86_64-w64-mingw32-g++ $(FILE) $(MINGWFLAGS) -I$(LIB)/glfw -o $(BIN).exe
 	#TODO: opengl
+	-mv $(WORKSPACE)/../Download/Taschenrechner/win/*.exe $(WORKSPACE)/../Download/Taschenrechner/win/old/
+	-mv $(BIN)/$(VERSION).exe $(WORKSPACE)/../Download/Taschenrechner/win/$(VERSION).exe
 
 package-deb: 
     #TODO: deb config
@@ -34,7 +43,8 @@ package-rpm:
 	#TODO: rpm config
 
 package-src:
-	#TODO: zip
+	-mv $(WORKSPACE)/../Download/Taschenrechner/src/*.zip $(WORKSPACE)/../Download/Taschenrechner/src/old/
+	zip $(WORKSPACE)/../Download/Taschenrechner/src/$(VERSION).zip src/* 
 
 #Test
 run: build
@@ -43,4 +53,7 @@ run: build
 
 #Clean
 clean:
-	-rm -rf $(WORKSPACE)/bin 
+	-rm -Rrf $(WORKSPACE)/bin
+
+uninstall:
+	-rm -rf $(HOME)/bin/$(NAME)
