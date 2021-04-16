@@ -1,6 +1,7 @@
 # Scrum <3 GitHub & OpenGL für Dummies
 
-Q2 Project
+Q2 Project  
+Namens herkunft : [Isonoe](https://solarsystem.nasa.gov/moons/jupiter-moons/isonoe/in-depth/ "NASA")
 
 ## Product Backlog
 
