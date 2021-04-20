@@ -1,1 +1,5 @@
+title: Isonoe
+description: Q2-Project
 theme: jekyll-theme-slate
+
+exclude: ../README.md
