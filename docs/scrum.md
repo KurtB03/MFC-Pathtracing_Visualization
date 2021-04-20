@@ -23,7 +23,7 @@ Scrum <3 GitHub & OpenGL für Dummies
 |8   | FAQ der größten Fehler | um hilfe zu leisten wie man den Start weniger Holbrig macht | "Are you frightened?" "Yes." "Not nearly frightened enough." | 6 | 7 | Austehend | - |
 |9   | Hand-Out, der Wichtigsten Befehle | um den Einstieg zu Erleichtern | Nine companions. So be it. | 4 | 3 | Austehend | - |
 |10  | Präsentation | Vorstellung des Projektes, unterrichten der Klasse | We swears, to serve the master of the Precious. We will swear on… on the Precious | 9 | 2 | Austehend | 1, 2, 4, 5 |
-|11  | Redakionelle aufbereitung | Ergebnisse Festhalten für die Nachwelt - Herr. Schwaigers Job machen | Oh, it’s quite simple. If you are a friend, you speak the password, and the doors will open | 4 | 7 | imagined | 1-9 + 12 |
+|11  | Redakionelle aufbereitung | Ergebnisse Festhalten für die Nachwelt - Herr. Schwaigers Job machen | Oh, it’s quite simple. If you are a friend, you speak the password, and the doors will open | 4 | 7 | imagined | 1-9 (+ 12) |
 |12 | Dokumetation | Zum Kichern und Erinnern | It's the job that's never started as takes longest to finish. | 10 | 0 | Beiläufig | **∞**|
 
 ## Sprint 1
