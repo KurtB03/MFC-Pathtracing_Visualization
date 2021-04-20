@@ -49,10 +49,12 @@ Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, d
 
 ## Sprint 1 Retroperspektive
 
-> *Wurde das Sprint-Ziel mit dem Produktinkrement erreicht ?* \
+> *Wurde das Sprint-Ziel mit dem Produktinkrement erreicht ?*  
+ 
  Ja denn wir haben es Geschafft das Projekt zu ändern und MFC loszuwerden.
 
-> *Was könnte man bis zum Nächsten Sprint verbessern ?* \
+> *Was könnte man bis zum Nächsten Sprint verbessern ?*  
+
  die Arbeitzeit aufdröseln sodass wir nicht nur an einem Tag Arbeiten, und weniger Zeit mit dem Projekt wechsel verbringen.
  
 ## Sprint 2
