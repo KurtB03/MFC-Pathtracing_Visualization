@@ -1,6 +1,8 @@
 #! /bin/bash
 COMMIT=$(git rev-parse --short HEAD)
-NAME=Tee
+NAME=Isonoe
 VERSION=$NAME-$COMMIT
-mv Download/Artikel/*.pdf Download/Artikel/old/
-pandoc --pdf-engine=xelatex README.md -o Download/Artikel/$VERSION.pdf
+
+ARGS="--metadata pagetitle=$NAME README.md -s -o Download/Artikel/$VERSION.html"
+ 
+pandoc -f gfm -c pandoc.css $ARGS
