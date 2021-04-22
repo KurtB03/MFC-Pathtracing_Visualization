@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 namespace calc{
     struct term{
@@ -17,7 +18,7 @@ namespace calc{
     
 
     std::vector<term> split(std::string s);
+    std::string strip(std::string s);
     double calc(std::string s);
     double eval(term t);
-    double strToDouble(std::string);
 }

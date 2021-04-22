@@ -4,12 +4,50 @@ namespace calc{
 
     std::vector<term> split(std::string s){
         std::vector<term> result;
+        term tmp;
+        bool post_op = false;
+
+        for (auto i : s){
+            switch (i)
+            {
+            case '1':
+                /* code */
+                break;
+            
+            default:
+                break;
+            }
+        }
+
+        return result;
+    }
+
+    std::string strip(std::string s){
+        std::string result = "";
+
+        for (char i : s){
+            switch (i)
+            {
+            case ' ' :
+            case '\n':
+            case '\t':
+            case '\r':
+            case '\f':
+            case '\v':
+                continue;
+                break;
+            
+            default:
+                result += i;
+                break;
+            }
+        }
 
         return result;
     }
 
     double calc(std::string s){
-        std::vector<term> parts = split(s);
+        std::vector<term> parts = split(strip(s));
         double result = 0;
         double last = 0;
 
@@ -84,7 +122,4 @@ namespace calc{
         return result;
     }
 
-    double strToDouble(std::string){
-        return -1;
-    }
 }
