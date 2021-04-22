@@ -1,5 +1,6 @@
 title: Isonoe
 description: Q2-Project
 theme: jekyll-theme-slate
+toc: true
 
 exclude: ../README.md
