@@ -1,21 +1,19 @@
 #Vars
 COMMIT = $(shell git rev-parse --short HEAD)
-NAME = cube
+NAME = calc
 VERSION = $(NAME)-$(COMMIT)
 WORKSPACE = $(shell pwd)
 BIN = $(WORKSPACE)/bin/$(VERSION)
 HOME = $(shell echo $$HOME)
-LDFLAGS = -lGL -lGLU -lglut -I$(LIB)
-FILE = $(WORKSPACE)/src/cube.cpp
-LIB = $(WORKSPACE)/src/lib
+LDFLAGS = -lGL -lGLU
+FILE = $(WORKSPACE)/src/main.cpp
+LIB = $(WORKSPACE)/lib/*.cpp
 
 
 #Compile
 build:
-	#TODO: build
 	-mkdir $(WORKSPACE)/bin
-	g++ $(FILE) $(CFLAGS) $(LDFLAGS) -o $(BIN)
-	#TODO: lib
+	g++ $(FILE) $(LIB) $(CFLAGS) $(LDFLAGS) -o $(BIN)
 
 release: package-rpm package-src
 	
@@ -28,8 +26,9 @@ package-src:
 
 #Test
 run: build
+	@echo ""
 	@$(BIN)
-	#TODO: path
+	@#TODO: path
 
 #Clean
 clean:

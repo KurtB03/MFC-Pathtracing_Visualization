@@ -20,7 +20,36 @@ namespace calc{
     }
 
     double eval(term t){
-        return -1;
+        double result = 0;
+
+        switch (t.op)
+        {
+        case '+':
+            result = t.a + t.b;
+            break;
+
+        case '-':
+            if(t.b_front)
+                result = t.b - t.a;
+            else
+                result = t.a - t.b;
+            break;
+        
+        case '*':
+            result = t.a * t.b;
+            break;
+
+        case '/':
+            if(t.b_front)
+                result = t.b / t.a;
+            else
+                result = t.a / t.b;
+            break;
+
+        default:
+            break;
+        }
+        return result;
     }
 
     double strToDouble(std::string){

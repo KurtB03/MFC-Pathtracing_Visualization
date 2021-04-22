@@ -1,6 +1,13 @@
 #include <iostream>
-#include <GL/gl.h>
+
+#include "../lib/calculator.hpp"
 
 int main(){
-    std::cout << "Hello Cross-Compiler";
+    calc::term t;
+    t.op = '/';
+    t.a = 8;
+    t.b = 4;
+    t.b_front = 1;
+
+    std::cout << calc::eval(t);
 }
