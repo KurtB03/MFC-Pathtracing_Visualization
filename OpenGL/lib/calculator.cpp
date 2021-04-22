@@ -11,9 +11,41 @@ namespace calc{
     double calc(std::string s){
         std::vector<term> parts = split(s);
         double result = 0;
+        double last = 0;
+
+        term tmp;
+        tmp.b_front = true;
+        bool do_tmp;
+        bool pre_tmp; 
 
         for (auto i : parts){
-            result += eval(i);
+            if (i.b_front){
+                i.b = last;
+            }
+
+            if (i.b_back){
+                tmp.a = i.a;
+                pre_tmp = true;
+                do_tmp = false;
+                continue;
+            }
+
+            if (do_tmp){
+                last = eval(tmp);
+                result += last;
+
+                pre_tmp = false;
+                do_tmp = false;
+
+                continue;
+            }
+
+            if (pre_tmp){
+                do_tmp = true;
+            }
+            
+            last = eval(i);
+            result += last;
         }
 
         return result;
