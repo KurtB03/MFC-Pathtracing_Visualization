@@ -1,6 +1,7 @@
-#include <iostream>
 #include <vector>
 #include <string>
+
+#include <iostream>
 
 namespace calc{
     struct term{
@@ -21,4 +22,5 @@ namespace calc{
     std::string strip(std::string s);
     double calc(std::string s);
     double eval(term t);
+    term clearTerm();
 }

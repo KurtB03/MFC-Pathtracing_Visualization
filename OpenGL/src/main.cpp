@@ -11,4 +11,5 @@ int main(){
 
     std::cout << calc::eval(t) << std::endl;
     std::cout << calc::strip("Te   s \n t") << std::endl;
+    std::cout << calc::calc("1 + 2 + 3") << std::endl;
 }

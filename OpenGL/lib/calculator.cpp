@@ -4,20 +4,59 @@ namespace calc{
 
     std::vector<term> split(std::string s){
         std::vector<term> result;
-        term tmp;
+        std::string number = "0";
+        term tmp = clearTerm();
         bool post_op = false;
+
+        //std::cout << s << std::endl;
 
         for (auto i : s){
             switch (i)
             {
+            case '0':
             case '1':
-                /* code */
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+            case '.':
+                number += i;               
+                break;
+            
+            case '+':
+            case '-':
+            case '*':
+            case '/':
+                if(post_op){
+                    tmp.b = std::stod(number);
+                    number = "0";
+                    if(tmp.a == 0) {
+                        tmp.op = i;
+                        tmp.b_front = true;
+                    }
+                    result.push_back(tmp);
+                    tmp = clearTerm();
+                }
+                tmp.a = std::stod(number);
+                number = "0";
+                tmp.op = i;
+                post_op = true;
                 break;
             
             default:
                 break;
             }
         }
+
+        tmp.b = std::stod(number);
+        if(tmp.a == 0) {
+        tmp.b_front = true;
+        }
+        result.push_back(tmp);
 
         return result;
     }
@@ -34,7 +73,6 @@ namespace calc{
             case '\r':
             case '\f':
             case '\v':
-                continue;
                 break;
             
             default:
@@ -122,4 +160,14 @@ namespace calc{
         return result;
     }
 
+    term clearTerm(){
+        term t;
+        t.op = '+';
+        t.a = 0;
+        t.b = 0;
+        t.b_back = false;
+        t.b_front = false;
+
+        return t;
+    }
 }
