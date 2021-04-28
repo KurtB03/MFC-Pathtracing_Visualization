@@ -1,9 +1,10 @@
 # Makefiles
 
-## Was das ??
+## Watn dat ??
 
 Makefiles sind text dateien, die eine anleitung für den Computer enthalten, wie 
-das Programm compilert, installiert und/oder ausgeführt wird. 
+das (C++) Programm compilert, installiert und/oder ausgeführt wird. Sie werden in
+einer abwandlung der Script sprache bash geschrieben und enthalten **Keine** teile des eigentlichen programms.
 
 ## Warum ??
 
@@ -35,6 +36,8 @@ echo "block compile\n"
 block compile 
 
 # Aus geführt wird dieser durch die eingaba "make compile" in die console.
+```
+```
 kurt@localhost:~$ make run
 # Hier stehen eigentlich Compile anweisungen.
 echo "block compile \n"
@@ -45,8 +48,7 @@ block compile
 echo "block run"
 block run
 
-# die angegebenen blöcke werden zu erst aufgerufen.
-kurt@localhost:~$   
+# die angegebenen blöcke werden zu erst aufgerufen.  
 ```
 Wie man sieht wird bei `make run` zu erst der block `compile` aufgerufen, wie vorher bei `make compile`.
 Was zudem ins auge fällt, ist die eigenschaft des programmes die anweisungen -
@@ -59,6 +61,7 @@ beschränken.
 Beispiel :
 ```bash
     test:
+        @#Nerviger Kommentar, der auch nicht ausgegeben wird
         @echo "Es wird nur dieser String ausgegeben, ohne das \"@echo\""
 ```
 ```
