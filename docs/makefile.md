@@ -1,8 +1,9 @@
 ---
-title : Makefiles
 description : Cheatsheat für den Computer
 toc : true
 ---
+
+# Makefiles
 
 ## Watn dat ??
 

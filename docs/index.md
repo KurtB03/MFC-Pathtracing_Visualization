@@ -4,10 +4,6 @@
 
 _______________
 
-{:toc}
-
-_______________
-
 ### [GitHub](github.md)
 
 ### [Markdown](markdown.md)
