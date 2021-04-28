@@ -1,6 +1,6 @@
 # Hello World
 
-## [Scrum](scrum.md)  
+### [Scrum](scrum.md)
 
 _______________
 

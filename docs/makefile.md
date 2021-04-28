@@ -27,7 +27,7 @@ abhängigkeit an zu geben.
     compile:
         # Hier stehen eigentlich Compile anweisungen.
         echo "block compile \n"
-        # Aus geführt wird dieser durch die eingaba "make compile" in die console.
+        # Aus geführt wird dieser durch die eingabe "make compile" in die console.
 
     run: compile # Hier werden andere blöcke als dependency angegeben
         # Hier stehen eigentlich die anwiesunge zur ausführung.
@@ -43,7 +43,7 @@ kurt@localhost:~$ make compile
 echo "block compile\n"     
 block compile 
 
-# Aus geführt wird dieser durch die eingaba "make compile" in die console.
+# Aus geführt wird dieser durch die eingabe "make compile" in die console.
 ```
 
 ```terminal
@@ -52,7 +52,7 @@ kurt@localhost:~$ make run
 echo "block compile \n"
 block compile
 
-# Aus geführt wird dieser durch die eingaba "make compile" in die console.
+# Aus geführt wird dieser durch die eingabe "make compile" in die console.
 # Hier stehen eigentlich die anwiesunge zur ausführung.
 echo "block run"
 block run

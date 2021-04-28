@@ -50,13 +50,13 @@ Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, d
 ## Sprint 1 Retroperspektive
 
 *Wurde das Sprint-Ziel mit dem Produktinkrement erreicht ?*  
- 
+
 > Ja denn wir haben es Geschafft das Projekt zu ändern und MFC loszuwerden.
 
 *Was könnte man bis zum Nächsten Sprint verbessern ?*  
 
 > die Arbeitzeit aufdröseln sodass wir nicht nur an einem Tag Arbeiten, und weniger Zeit mit dem Projekt wechsel verbringen.
- 
+
 ## Sprint 2
 
  |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Status | Definition von Fertig |
@@ -65,7 +65,7 @@ Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, d
  | 2 | 4 | Grundlagen zu OpenGl    | 3std | Kurt & Philipp | Ausstehend | Wenn wir beide die Grundlagen verstanden haben und verständlich wiedergeben können |
  | 3 | 4 | Erweiterte Funktionen von OpenGl | 4std | Kurt & Philipp | Ausstehend | Laufendes Grafische Darstellungen an einem kleinen Beispiel |
  | 4 | 12 | Unterschiede Gegenüber MFC | 1-2std | Philipp | Ausstehend | Eine Dokumentation der Relevanten Unterschiede |
- | 5 | 11 | Aufbearbeitung von Sprint 1 | 5std | Kurt & Philipp | Ausstehend | Wenn es eine Ausenstehende Person ohne Hilfe versteht (und wir es schön finden) | 
+ | 5 | 11 | Aufbearbeitung von Sprint 1 | 5std | Kurt & Philipp | Ausstehend | Wenn es eine Ausenstehende Person ohne Hilfe versteht (und wir es schön finden) |
  | 6 | 5 | Grundlagen Makefiles | 2std | Kurt | Ausstehend | Wenn die Grundlagen einer Aussenstehenden Person verständlich erklärt werden können |
  | 7 | 5 | Bash | 3std | Kurt | Ausstehend | Wenn die Grundlagen einer Aussenstehenden Person verständlich erklärt werden können |
  | 8 |13| SCRUM | 2-3std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
