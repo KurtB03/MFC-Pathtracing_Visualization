@@ -7,7 +7,7 @@ _______________
 #### [GitHub](github.md)  
 #### [Markdown](markdown.md)  
 #### [Bash](bash.md)  
-#### [Makefile](makfile.md)  
+#### [Makefile](makefile.md)  
 #### [CD/CI](pipeline.md)  
 #### [OpenGL](opengl.md)  
 #### [Taschenrechner](taschenrechner.md)  

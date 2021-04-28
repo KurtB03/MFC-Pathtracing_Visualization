@@ -58,8 +58,8 @@ text unter geht. Dafür gibt es das Präfix `@` um die ausgabe auf das ergebniss
 beschränken.  
 Beispiel :
 ```bash
-test:
-    @echo "Es wird nur dieser String ausgegeben, ohne das \"@echo\""
+    test:
+        @echo "Es wird nur dieser String ausgegeben, ohne das \"@echo\""
 ```
 ```
 kurt@localhost:~$ make test
