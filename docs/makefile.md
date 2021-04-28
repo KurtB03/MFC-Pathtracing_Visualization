@@ -24,15 +24,15 @@ werden. Außerdem ist es möglich sie im Makefile auf zu rufen, bzw. sie als
 abhängigkeit an zu geben.
 
 ```bash
-    compile:
-        # Hier stehen eigentlich Compile anweisungen.
-        echo "block compile \n"
-        # Aus geführt wird dieser durch die eingabe "make compile" in die console.
+compile:
+    # Hier stehen eigentlich Compile anweisungen.
+    echo "block compile \n"
+    # Aus geführt wird dieser durch die eingabe "make compile" in die console.
 
-    run: compile # Hier werden andere blöcke als dependency angegeben
-        # Hier stehen eigentlich die anwiesunge zur ausführung.
-        echo "block run \n"
-        # die angegebenen blöcke werden zu erst aufgerufen.
+run: compile # Hier werden andere blöcke als dependency angegeben
+    # Hier stehen eigentlich die anwiesunge zur ausführung.
+    echo "block run \n"
+    # die angegebenen blöcke werden zu erst aufgerufen.
 ```
 
 Bei diesem beispiel sähe der Output dann so aus :
@@ -71,9 +71,10 @@ beschränken.
 Beispiel :
 
 ```bash
-    test:
-        @#Nerviger Kommentar, der auch nicht ausgegeben wird
-        @echo "Es wird nur dieser String ausgegeben, ohne das \"@echo\""
+test:
+    @echo "Es wird nur dieser String ausgegeben, ohne das \"@echo\""
+    @#Nerviger Kommentar, der auch nicht ausgegeben wird
+
 ```
 
 ```terminal
