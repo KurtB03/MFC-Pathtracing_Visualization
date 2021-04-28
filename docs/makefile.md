@@ -1,6 +1,8 @@
-# Makefiles
-
-{:toc}
+---
+title : Makefiles
+description : Cheatsheat für den Computer
+toc : true
+---
 
 ## Watn dat ??
 
