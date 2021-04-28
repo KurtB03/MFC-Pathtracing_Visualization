@@ -19,9 +19,11 @@ zusammen arbeit erleichtert und für [CD/CI-Pipelines](pipeline.md) wichtig ist.
 
 ## Wie ??
 
+### Targets
+
 Makefiles bestehen aus mehreren abschnitten, die mit  `make *name*` aufgerufen
 werden. Außerdem ist es möglich sie im Makefile auf zu rufen, bzw. sie als
-abhängigkeit an zu geben.
+abhängigkeit an zu geben. Diese abschnitte werden targets genannt.
 
 ```bash
 compile:
