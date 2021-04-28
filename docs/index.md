@@ -14,3 +14,4 @@ _______________
 #### [Und Jetzt ?!](fazit.md)
 #### [FAQ](faq.md)   
 
+![Foundations are important](assets/pictures/fundation-meme.jpg)
