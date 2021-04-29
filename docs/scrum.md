@@ -69,3 +69,21 @@ Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, d
  | 6 | 5 | Grundlagen Makefiles | 2std | Kurt | Ausstehend | Wenn die Grundlagen einer Aussenstehenden Person verständlich erklärt werden können |
  | 7 | 5 | Bash | 3std | Kurt | Ausstehend | Wenn die Grundlagen einer Aussenstehenden Person verständlich erklärt werden können |
  | 8 |13| SCRUM | 2-3std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
+
+## Sprint 2 Auswertung
+
+ *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?* \
+Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
+
+ *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
+ Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
+
+## Sprint 2 Retroperspektive
+
+*Wurde das Sprint-Ziel mit dem Produktinkrement erreicht ?*  
+
+> Ja denn wir haben es Geschafft den Großteil der Info Dokumente zu schreiben.
+
+*Was könnte man bis zum Nächsten Sprint verbessern ?*  
+
+> die Arbeitzeit aufdröseln sodass wir nicht nur an einem Tag Arbeiten und wir sollten die Arbeitsteilung besser Planen.
