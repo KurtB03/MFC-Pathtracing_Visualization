@@ -73,7 +73,7 @@ Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, d
 ## Sprint 2 Auswertung
 
  *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?* \
-Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
+>Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
 
  *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
   weshalb dieser Part sehr wichtig für das spätere Produkt ist.
