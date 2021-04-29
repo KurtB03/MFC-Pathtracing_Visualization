@@ -2,6 +2,7 @@
 
 ### [Scrum](scrum.md)
 
+![Good Code](assets/pictures/good_code-xkcd.png)
 _______________
 
 ### [GitHub](github.md)
@@ -25,3 +26,5 @@ _______________
 _______________
 
 ![Foundations are important](assets/pictures/fundation-meme.jpg)
+
+#### [XKCD](https://xkcd.com/)
