@@ -76,7 +76,7 @@ Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, d
 Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
 
  *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
- Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
+  weshalb dieser Part sehr wichtig für das spätere Produkt ist.
 
 ## Sprint 2 Retroperspektive
 
