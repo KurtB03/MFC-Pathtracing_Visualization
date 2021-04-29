@@ -75,7 +75,7 @@ Scrum <3 GitHub & OpenGL für Dummies
  *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?*
 >Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
 
- *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
+ *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?*
 >Dieses Inkrement hat einen Sehr hohen wert für das fertige Produkt da Mittlerweile die Meißten Info Dokumente Fertig sind weshalb wir uns Jetzt auf die Ausarbeitung Konzentrieren können.
 
 ## Sprint 2 Retroperspektive
