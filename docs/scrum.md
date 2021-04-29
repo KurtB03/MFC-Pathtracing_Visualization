@@ -35,7 +35,7 @@ Scrum <3 GitHub & OpenGL für Dummies
  |3  |1 | .gitignore Erklärung der Funktion, Halte deine Repositorys Sauber | 2std. | Kurt | Fertig | gitignore eingerichtet und Repo ist und **bleibt** Sauber |
  |4  |2 | Verünftige Tabellen Erstellen, Ordnung ist das Halbe Leben | 1,5std | Kurt | Fertig | Wunderschöne Tabelle Fertig (wer das liest hat es geschafft) |
  |5  |2 | Style Modifiers Befehle, das Große Umstyling | 2std. | Patrick | Fertig | Ausdruck deiner Seele |
- |6  |- | Projekt Wechsel | 10std. | Patrick & Kurt | fast Fertig | **Hoelle!** |
+ |6  |- | Projekt Wechsel | 10std. | Patrick & Kurt | Fertig | **Hoelle!** |
  |7  |12| Aufschreiben, \*Klang einer Schreibmaschine\*, Dokumentation ist Wichtig | 3std. | Patrick | In Bearbeitung | Ewiger Kreislauf |
  |8  |13| SCRUM | 6std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
 
@@ -73,10 +73,10 @@ Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, d
 ## Sprint 2 Auswertung
 
  *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?* \
-Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
+>Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
 
  *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
- Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
+ > Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
 
 ## Sprint 2 Retroperspektive
 
