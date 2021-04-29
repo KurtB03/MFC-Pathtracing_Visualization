@@ -61,13 +61,13 @@ Scrum <3 GitHub & OpenGL für Dummies
 
  |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Status | Definition von Fertig |
  |:-:|:--:|:--:|:--:|:--:|:--:|:--:|
- | 1 | 3 | Grundlagen zu Pipelines | 2std | Kurt | Ausstehend | Wenn es eine Aussenstehende Person Versteht |
- | 2 | 4 | Grundlagen zu OpenGl    | 3std | Kurt & Philipp | Ausstehend | Wenn wir beide die Grundlagen verstanden haben und verständlich wiedergeben können |
- | 3 | 4 | Erweiterte Funktionen von OpenGl | 4std | Kurt & Philipp | Ausstehend | Laufendes Grafische Darstellungen an einem kleinen Beispiel |
- | 4 | 12 | Unterschiede Gegenüber MFC | 1-2std | Philipp | Ausstehend | Eine Dokumentation der Relevanten Unterschiede |
- | 5 | 11 | Aufbearbeitung von Sprint 1 | 5std | Kurt & Philipp | Ausstehend | Wenn es eine Ausenstehende Person ohne Hilfe versteht (und wir es schön finden) |
- | 6 | 5 | Grundlagen Makefiles | 2std | Kurt | Ausstehend | Wenn die Grundlagen einer Aussenstehenden Person verständlich erklärt werden können |
- | 7 | 5 | Bash | 3std | Kurt | Ausstehend | Wenn die Grundlagen einer Aussenstehenden Person verständlich erklärt werden können |
+ | 1 | 3 | Grundlagen zu Pipelines | 2std | Kurt | Fertig | Wenn es eine Aussenstehende Person Versteht |
+ | 2 | 4 | Grundlagen zu OpenGl    | 3std | Kurt & Philipp | Fertig | Wenn wir beide die Grundlagen verstanden haben und verständlich wiedergeben können |
+ | 3 | 4 | Erweiterte Funktionen von OpenGl | 4std | Kurt & Philipp | fast Fertig | Laufendes Grafische Darstellungen an einem kleinen Beispiel |
+ | 4 | 12 | Unterschiede Gegenüber MFC | 1-2std | Philipp | Fertig | Eine Dokumentation der Relevanten Unterschiede |
+ | 5 | 11 | Aufbearbeitung von Sprint 1 | 5std | Kurt & Philipp | Fertig | Wenn es eine Ausenstehende Person ohne Hilfe versteht (und wir es schön finden) |
+ | 6 | 5 | Grundlagen Makefiles | 2std | Kurt | Fertig | Wenn die Grundlagen einer Aussenstehenden Person verständlich erklärt werden können |
+ | 7 | 5 | Bash | 3std | Kurt | Fertig | Wenn die Grundlagen einer Aussenstehenden Person verständlich erklärt werden können |
  | 8 |13| SCRUM | 2-3std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
 
 ## Sprint 2 Auswertung
@@ -75,8 +75,8 @@ Scrum <3 GitHub & OpenGL für Dummies
  *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?*
 >Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
 
- *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?*
- > Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
+ *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
+> weshalb dieser Part sehr wichtig für das spätere Produkt ist.
 
 ## Sprint 2 Retroperspektive
 
