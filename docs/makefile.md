@@ -86,12 +86,12 @@ kurt@localhost:~$ make test
 Es wird nur dieser String ausgegeben, ohne das "@echo"
 ```
 
-### Variabelen
+### Variablen
 
-In Makefiles gibt es nur Variabelen des Types String, um etwa Dateipfade oder
-Command-Argumente zu halten. Es gibt keine Rechen operationen mit den Variabelen, sie
-werden nur eingesetzt (wie C++ Makros), um zwei Variabelen zu "addieren" können sie
-einfach hinter einander verwendet werden. Wie in Bash (und C++) können Variabelen mit dem
+In Makefiles gibt es nur Variablen des Types String, um etwa Dateipfade oder
+Command-Argumente zu halten. Es gibt keine Rechen operationen mit den Variablen, sie
+werden nur eingesetzt (wie C++ Makros), um zwei Variablen zu "addieren" können sie
+einfach hinter einander verwendet werden. Wie in Bash (und C++) können Variablen mit dem
 ergebnis einer Funktion, bzw. anderen Befehles, deklariert werden. Verwendet werden sie
 via `$(var)`. `$(shell command)` gibt das ergebnis des Commands zurück.
 
@@ -116,3 +116,5 @@ name
 name-3a9158c
 name3a9158c 
 ```
+
+-
