@@ -41,11 +41,11 @@ Scrum <3 GitHub & OpenGL für Dummies
 
 ## Sprint 1 Auswertung
 
- *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?* \
-Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
+ *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?*
+> Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
 
- *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
- Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
+ *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?*
+> Wenn man nicht anfängt wird man nicht fertig, weshalb dieser Part sehr wichtig für das spätere Produkt ist.
 
 ## Sprint 1 Retroperspektive
 
@@ -72,7 +72,7 @@ Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, d
 
 ## Sprint 2 Auswertung
 
- *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?* \
+ *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?*
 >Ja denn dieser Sprint ist für den Präsentationsteil und den Artikel gedacht, der Praktische Teil mit Beispiel folgt in einem Späteren Sprint.
 
  *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?* \
