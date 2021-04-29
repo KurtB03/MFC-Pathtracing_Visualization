@@ -125,14 +125,14 @@ diesem Beispiel, werden sie genutzt um den Versionen einzigartige Namen zu geben
 basierend auf ihren Git-Commits.
 > Hinweis : Git gibt jedem Commit als Einzigartige Identifikations-Nummer, den SHA1 hash des Repositories
 
-> Pro Tip : Meist reichen die ersten paar zeichen um einen Commit zu identifizieren, und sich seinen inhalt anschauen zu können.
-
 ```bash
 #Vars
 NAME = Taschenrechner # Gib ihm einen Namen.
 COMMIT = $(shell git rev-parse --short HEAD) # So bekommt man die ersten 7 stellen des Hashes, des aktuellen Commits.
 VERSION = $(NAME)-$(COMMIT) # Combinieren, des Namens mit dem Hash um eine Informative Versionsbezeichnung zu erzeugen.
 ```
+
+> Pro Tip : Meist reichen die ersten paar zeichen um einen Commit zu identifizieren, und sich seinen inhalt anschauen, zu können.
 
 Die nächsten 2 Variabeln, speichern die Arbeits umgebung, die 3te Setzt den Output für den Compiler zusammen.
 
