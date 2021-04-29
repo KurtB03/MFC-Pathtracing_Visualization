@@ -118,4 +118,62 @@ name-3a9158c
 name3a9158c 
 ```
 
-WIP
+### Real Beispiel
+
+Die ersten Variabeln hatten bereits einen Auftritt im abschnitt über Varabeln, in
+diesem Beispiel, werden sie genutzt um den Versionen einzigartige Namen zu geben,
+basierend auf ihren Git-Commits.
+> Hinweis : Git gibt jedem Commit als Einzigartige Identifikations-Nummer, den SHA1 hash des Repositories
+
+> Pro Tip : Meist reichen die ersten paar zeichen um einen Commit zu identifizieren, und sich seinen inhalt anschauen zu können.
+
+```bash
+#Vars
+NAME = Taschenrechner # Gib ihm einen Namen.
+COMMIT = $(shell git rev-parse --short HEAD) # So bekommt man die ersten 7 stellen des Hashes, des aktuellen Commits.
+VERSION = $(NAME)-$(COMMIT) # Combinieren, des Namens mit dem Hash um eine Informative Versionsbezeichnung zu erzeugen.
+```
+
+Die nächsten 2 Variabeln, speichern die Arbeits umgebung, die 3te Setzt den Output für den Compiler zusammen.
+
+```bash
+WORKSPACE = $(shell pwd) # "pwd" steht für "print working directory" und gibt den vollständigen Pfad zum Ordner, aus welchem der Command ausgeführt wird, zurück.
+HOME = $(shell echo $$HOME) # Erfragt die Variable "HOME" vom Betriebsystem, welche den Pfad des Ordners, der die Dateien, des eingeloggten Nutzers enthält.
+BIN = $(WORKSPACE)/bin/$(VERSION) # Name und Pfad werden zusammen gefügt um eine valide Datei-Adresse zu erhalten.
+```
+
+Nun wird der input für den Compiler (und Linker) vorberitet.
+
+```bash
+LDFLAGS = -lGL -lGLU # Linker optionen, um vor compilerte Librarys ein zu binden. Hier OpenGL.
+FILE = $(WORKSPACE)/src/main.cpp # Zu compilerende Datei.
+LIB = $(WORKSPACE)/lib/*.cpp # Source dateien eingebundener Librarys, die nicht in Binär form vorliegen.
+```
+
+Jetzt kommen wir endlich zur *Action* der `build` block enthält üblicher weise die
+Anweisungen um das Programm zu Compileren, und eine Ausführbare Binär-Datei zu
+erstellen.
+
+```bash
+build:
+        -mkdir $(WORKSPACE)/bin
+        g++ $(FILE) $(LIB) $(CFLAGS) $(LDFLAGS) -o $(BIN)
+```
+
+```bash
+package-src:
+        -mv $(WORKSPACE)/../Download/Taschenrechner/src/*.zip $(WORKSPACE)/../Download/Taschenrechner/src/old/
+        zip $(WORKSPACE)/../Download/Taschenrechner/src/$(VERSION).zip src/*
+```
+
+```bash
+run: build
+        @echo ""
+        @$(BIN)
+        @#TODO: path
+```
+
+```bash
+clean:
+        -rm -Rrf $(WORKSPACE)/bin
+```
