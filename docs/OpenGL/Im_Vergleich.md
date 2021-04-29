@@ -28,7 +28,7 @@ Gut:
 
 Schlecht:
 
-    1. 1 Fehler und man muss neu Anfangen oder 100000 Jahre den Fehler Suchen
+    1. Ein Fehler und man muss neu Anfangen oder 100000 Jahre den Fehler Suchen
     2. Nicht sehr Lehrreich da das meiste von MFC übernommen wird und man sehr wenig selber schreiben muss
     3. Es hat keine Gute Synchronisierung mit Git
     4. Teamarbeit und Backups über Git sind nur schwer Realisierbar da die Software nicht wirklich kompatible miteinander ist und somit Fehler entstehen können die das Programm unbenutzbar machen.
