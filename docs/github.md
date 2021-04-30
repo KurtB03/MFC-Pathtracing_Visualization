@@ -48,7 +48,7 @@ um die Neuste Version des Repositorys zu bekommen verwenden wir die Funktion Pul
 
 Falls sie Jedoch schon etwas in einer Datei eingetragen haben müssen sie dies erst Commiten und anschließend Pushen sodass alle Mitarbeiter ihre Fortschritte für sich benutzen können. Dies Funktioniert über den Commit für alle Button, außerdem ist es Klug eine Kurze Beschreibung seiner Änderungen in dem Textfeld einzugeben welches sich über dem Commit für alle Button finden lässt sodass falls jemand ein Backup laden will genau weiß was zu jedem Push getan wurde.
 
-![Picture missing](asstes/pictures/VS-Tools4.png)
+![Picture missing](assetes/pictures/VS-Tools4.png)
 
 ### Push
 
