@@ -36,15 +36,21 @@ Um die Gewünschte Datei in Teams zu öffnen gehen sie auf Projektmappen-Explore
 
 ![Picture missing](assets/pictures/VS-Tools2.png)
 
+### Pull
+
 Pull = Updated den Eigenen Code zu der Neusten Version des Ausgewählten Branches 
 
 um die Neuste Version des Repositorys zu bekommen verwenden wir die Funktion Pull diese Versteckt sich hinter diesem Icon in Git-Änderungen
 
 ![Picture missing](assets/pictures/VS-Tools3.png)
 
+### Commit
+
 Falls sie Jedoch schon etwas in einer Datei eingetragen haben müssen sie dies erst Commiten und anschließend Pushen sodass alle Mitarbeiter ihre Fortschritte für sich benutzen können. Dies Funktioniert über den Commit für alle Button, außerdem ist es Klug eine Kurze Beschreibung seiner Änderungen in dem Textfeld einzugeben welches sich über dem Commit für alle Button finden lässt sodass falls jemand ein Backup laden will genau weiß was zu jedem Push getan wurde.
 
 ![Picture missing](asstes/pictures/VS-Tools4.png)
+
+### Push
 
 Danach muss man die Datei noch Pushen. Dies Geschieht über den Push Button der sich Rechts vom Pull Button Befindet. Solange die Vorgenommenen Änderungen nicht mit den Änderungen eines Anderen Mitglieds nicht Interferieren funktioniert der Push ganz Normal sollten die Änderungen Jedoch mit anderen Änderungen Interferieren muss man den Sogenannten „Merge Conflict“ lösen. Dies wird etwas weiter Unten Genauer erklärt.
 
