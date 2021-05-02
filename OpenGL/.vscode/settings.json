@@ -1,0 +1,10 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/kurt/Projects/Isonoe/OpenGL/bin",
+            "binaryPath": "/home/kurt/Projects/Isonoe/OpenGL/bin/calc-fcfa3e6",
+            "binaryArgs": []
+        }
+    ]
+}
