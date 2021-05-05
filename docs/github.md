@@ -76,3 +76,27 @@ Zuletzt wählt ihr eure gewünschte Datei noch aus, fügt eine kurze Beschreibun
 Merge Konflikte Lösen:
 
 sollten mehrere Menschen an einer Datei arbeiten wird es unweigerlich zu Merge Konflikten kommen. Diese entstehen wenn jemand der eine Ältere Version der Datei hat als diese auf dem Repository und anschließend versucht diese zu Pushen. Diese Konflikte sind im Normalfall kein Großes Problem da man sie schnell lösen kann solange man weiß wie.
+
+Falls die Fehlermeldung Git: Pushfehler auftreten sollte geht man wie folgt vor. Zuerst drückt man auf den Button Pull und Push.
+
+![Picture missing](assets/pictures/Git_Pushfehler.jpg)
+
+Danach sollte oben über ihrem geöffneten Fenster in Gelb eine Meldung auf ploppen. in dieser drücken sie auf Merge-Editor öffnen.
+
+![Picture missing](assets/pictures/Merge_Editor_oeffnen.jpg)
+
+Daraufhin sollte sich der Merge Editor öffnen. in diesem können sie alle derzeitigen konflikte sehen die durch den Push entstehen würden. neben den Zeilen wo der Editor Probleme bekommen hat sehen sie kleine Boxen. über diese Boxen können sie Steuern was letzendlich im Repo landet. wenn sie eine Box anhaken wird dieser Teil in ihrem nächsten commit mitgegeben und alles wo keine Kreuze gesetzt sind wird rausgeschmissen. sollten sie bei einem Problem in der Selben Zeile beide Kästchen auswählen werden die Inhalte der Boxen beide Hintereinander mit dem Nächsten Push in ihr Repo geschoben.
+
+![Picture missing](assets/pictures/Merge_Editor_Erklaert.jpg)
+
+nachdem sie alle Konflikte behoben haben müssen sie noch auf Merge akzeptieren drücken um ihre Ergebnisse so festzulegen.
+
+![Picture missing](assets/pictures/Merge_Akzeptieren.jpg)
+
+nun müssen sie nur noch commiten und pushen, dies geht in diesem fall über den Button Gestagter Commit der an der Selben stelle zu finden ist wo sonst der Commit Button ist.
+
+![Picture missing](assets/pictures/Gestagter_Commit.jpg)
+
+und zu Guter letzt müssen sie nur noch Pushen sodass die Dateien auf dem Repo landen.
+
+![Picture missing](assets/pictures/Push.jpg)
