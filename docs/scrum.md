@@ -98,5 +98,3 @@ Scrum <3 GitHub & OpenGL für Dummies
  | 4 | 10 | Präsentation | 4std | Philipp | Ausstehend | Wenn alle bisherigen Arbeitsschritte in der Präsentation erklärt sind |
  | 5 | 8 | FAQ | 3std | Patrick | Ausstehend | wennn eine Din A4 Seite voll Geschrieben ist |
  | 6 |13| SCRUM | 2-3std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
-
- ,
