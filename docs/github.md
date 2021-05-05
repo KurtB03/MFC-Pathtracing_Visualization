@@ -38,7 +38,7 @@ Um die Gewünschte Datei in Teams zu öffnen gehen sie auf Projektmappen-Explore
 
 ### Pull
 
-Pull = Updated den Eigenen Code zu der Neusten Version des Ausgewählten Branches 
+Pull = Updated den Eigenen Code zu der Neusten Version des Ausgewählten Branches
 
 um die Neuste Version des Repositorys zu bekommen verwenden wir die Funktion Pull diese Versteckt sich hinter diesem Icon in Git-Änderungen
 
@@ -48,7 +48,7 @@ um die Neuste Version des Repositorys zu bekommen verwenden wir die Funktion Pul
 
 Falls sie Jedoch schon etwas in einer Datei eingetragen haben müssen sie dies erst Commiten und anschließend Pushen sodass alle Mitarbeiter ihre Fortschritte für sich benutzen können. Dies Funktioniert über den Commit für alle Button, außerdem ist es Klug eine Kurze Beschreibung seiner Änderungen in dem Textfeld einzugeben welches sich über dem Commit für alle Button finden lässt sodass falls jemand ein Backup laden will genau weiß was zu jedem Push getan wurde.
 
-![Picture missing](asstes/pictures/VS-Tools4.png)
+![Picture missing](assets/pictures/VS-Tools4.png)
 
 ### Push
 
