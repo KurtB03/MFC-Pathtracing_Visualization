@@ -89,11 +89,12 @@ Es wird nur dieser String ausgegeben, ohne das "@echo"
 ### Variablen
 
 In Makefiles gibt es nur Variablen des Types String, um etwa Dateipfade oder
-Command-Argumente zu halten. Es gibt keine Rechen operationen mit den Variablen, sie
-werden nur eingesetzt (wie C++ Makros), um zwei Variablen zu "addieren" können sie
-einfach hinter einander verwendet werden. Wie in Bash (und C++) können Variablen mit dem
-ergebnis einer Funktion, bzw. anderen Befehles, deklariert werden. Verwendet werden sie
-via `$(var)`. `$(shell command)` gibt das ergebnis des Commands zurück.
+Command-Argumente zu halten. Es gibt keine Rechen operationen mit den Variablen,
+sie werden nur eingesetzt (wie C++ Makros), um zwei Variablen zu "addieren"
+können sie einfach hinter einander verwendet werden. Wie in Bash (und C++) können
+Variablen mit dem ergebnis einer Funktion, bzw. anderen Befehles, deklariert
+werden. Verwendet werden sie via `$(var)`. Noch ein Hinweis `$(shell command)`
+gibt das ergebnis des Commands zurück.
 
 Beispiel:
 
@@ -117,4 +118,73 @@ name-3a9158c
 name3a9158c 
 ```
 
--
+### Real Beispiel
+
+Die ersten Variabeln hatten bereits einen Auftritt im abschnitt über Varabeln, in
+diesem Beispiel, werden sie genutzt um den Versionen einzigartige Namen zu geben,
+basierend auf ihren Git-Commits.
+> Hinweis : Git gibt jedem Commit als Einzigartige Identifikations-Nummer, den SHA1 hash des Repositories
+
+```bash
+#Vars
+NAME = Taschenrechner # Gib ihm einen Namen.
+COMMIT = $(shell git rev-parse --short HEAD) # So bekommt man die ersten 7 stellen des Hashes, des aktuellen Commits.
+VERSION = $(NAME)-$(COMMIT) # Combinieren, des Namens mit dem Hash um eine Informative Versionsbezeichnung zu erzeugen.
+```
+
+> Pro Tip : Meist reichen die ersten paar zeichen um einen Commit zu identifizieren, und sich seinen inhalt anschauen, zu können.
+
+Die nächsten 2 Variabeln, speichern die Arbeits umgebung, die 3te Setzt den Output für den Compiler zusammen.
+
+```bash
+WORKSPACE = $(shell pwd) # "pwd" steht für "print working directory" und gibt den vollständigen Pfad zum Ordner, aus welchem der Command ausgeführt wird, zurück.
+HOME = $(shell echo $$HOME) # Erfragt die Variable "HOME" vom Betriebsystem, welche den Pfad des Ordners, der die Dateien, des eingeloggten Nutzers enthält.
+BIN = $(WORKSPACE)/bin/$(VERSION) # Name und Pfad werden zusammen gefügt um eine valide Datei-Adresse zu erhalten.
+```
+
+Nun wird der input für den Compiler (und Linker) vorberitet.
+
+```bash
+LDFLAGS = -lGL -lGLU # Linker optionen, um vor compilerte Librarys ein zu binden. Hier OpenGL.
+FILE = $(WORKSPACE)/src/main.cpp # Zu compilerende Datei.
+LIB = $(WORKSPACE)/lib/*.cpp # Source dateien eingebundener Librarys, die nicht in Binär form vorliegen.
+```
+
+Jetzt kommen wir endlich zur *Action* der `build` block enthält üblicher weise die
+Anweisungen um das Programm zu Compileren, und eine Ausführbare Binär-Datei zu
+erstellen.
+
+> Man Beachte das Präfix `-` vor dem `mkdir`, es sagt make weiter zu arbeiten, wenn der dazugehörige Command einen Fehler zurück gibt.
+
+```bash
+build:
+        -mkdir $(WORKSPACE)/bin # Wenn der Ordner …/bin nicht existiert wird er erstellt.
+        g++ $(FILE) $(LIB) $(CFLAGS) $(LDFLAGS) -o $(BIN) # g++ ist der Standard C++ copiler für Linux
+```
+
+`package-` Blöcke sind dazu da, Release-Versionen in ein Format zu bringen, das nutzer sich herunterladen und möglichst einfach installieren können, Das bekannte Paket-Formate sind .msi für Windows, .apk für Android, ,pkg für Apple sowie .deb und .rpm für die Linux Distributionen Debian(deb) und RHEL(rpm). In diesem fall wird nur ein .zip Archiv des Source-Codes erstellt, der vom Nutzer (platformunabhängig) Compiliert werden muss.
+
+> Achtung : Nicht jedes Programm, das platformunabhängig Verpakt ist, ist tatsächlich paltformunabhängig geschrien/lauffähig.
+
+```bash
+package-src:
+        -mv $(WORKSPACE)/../Download/Taschenrechner/src/*.zip $(WORKSPACE)/../Download/Taschenrechner/src/old/ # Verschiebe ggf. vorhandene vorangeganene Versionen.
+        zip $(WORKSPACE)/../Download/Taschenrechner/src/$(VERSION).zip $(WORKSPACE)/* # ZZzzipp und zu.
+```
+
+Wie unschwer zu erraten sein sollte, ist die aufgabe des `run` Blockes, das Programm auszuführen.
+
+```bash
+run: build # Erst muss das Programm natürlich compiliert werden.
+        @echo "" # Leere Zeilen zur abgrenzung vom vorherigen output.
+        @$(BIN) # Aufruf des Programmes.
+```
+
+`clean` ist ähnlich selbst erklärend, es räumt auf. Nicht mehr benötigte Datien, wie .o oder .a Dateien früheren Compilierens. In diesem Beispiel werden nur die Binär-Bateien gelöscht, um "platz zu schaffen" für neue.
+
+```bash
+clean:
+        -rm -Rrf $(WORKSPACE)/bin # Alles muss raus.
+```
+
+> Pro Tip : Versucht euch schlechte humoristische Anmerkungen zu verkneifen.
