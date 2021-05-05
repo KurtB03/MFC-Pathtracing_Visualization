@@ -83,11 +83,11 @@ Falls die Fehlermeldung Git: Pushfehler auftreten sollte geht man wie folgt vor.
 
 Danach sollte oben über ihrem geöffneten Fenster in Gelb eine Meldung auf ploppen. in dieser drücken sie auf Merge-Editor öffnen.
 
-![Picture missing](docs/assets/pictures/Merge_Editor_öffnen.jpg)
+![Picture missing](docs/assets/pictures/Merge_Editor_oeffnen.jpg)
 
 Daraufhin sollte sich der Merge Editor öffnen. in diesem können sie alle derzeitigen konflikte sehen die durch den Push entstehen würden. neben den Zeilen wo der Editor Probleme bekommen hat sehen sie kleine Boxen. über diese Boxen können sie Steuern was letzendlich im Repo landet. wenn sie eine Box anhaken wird dieser Teil in ihrem nächsten commit mitgegeben und alles wo keine Kreuze gesetzt sind wird rausgeschmissen. sollten sie bei einem Problem in der Selben Zeile beide Kästchen auswählen werden die Inhalte der Boxen beide Hintereinander mit dem Nächsten Push in ihr Repo geschoben.
 
-![Picture missing](assets/pictures/Merge_Editor_Erklärt.jpg)
+![Picture missing](assets/pictures/Merge_Editor_Erklaert.jpg)
 
 nachdem sie alle Konflikte behoben haben müssen sie noch auf Merge akzeptieren drücken um ihre Ergebnisse so festzulegen.
 
