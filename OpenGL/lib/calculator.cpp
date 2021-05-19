@@ -1,7 +1,6 @@
 #include "calculator.hpp"
 
 namespace calc{
-
     std::vector<term> split(std::string s){
         std::vector<term> result;
         std::string number = "0";

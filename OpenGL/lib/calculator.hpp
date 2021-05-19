@@ -3,10 +3,10 @@
 
 #include <iostream>
 
+#include "util.hpp"
+
 #ifndef calc_hpp
 #define calc_hpp
-
-#include "util.hpp"
 
 namespace calc{
     struct term{
