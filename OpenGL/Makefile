@@ -5,9 +5,11 @@ VERSION = $(NAME)-$(COMMIT)
 WORKSPACE = $(shell pwd)
 BIN = $(WORKSPACE)/bin/$(VERSION)
 HOME = $(shell echo $$HOME)
-LDFLAGS = -lGL -lGLU
+LDFLAGS = -lGL -lGLU -lglut -lglfw
 FILE = $(WORKSPACE)/src/main.cpp
 LIB = $(WORKSPACE)/lib/*.cpp
+CUBE = $(WORKSPACE)/src/cube.cpp
+CUBE-BIN = $(WORKSPACE)/bin/cube-$(COMMIT)
 
 
 #Compile
@@ -29,6 +31,12 @@ run: build
 	@echo ""
 	@$(BIN)
 	@#TODO: path
+
+cube:
+	-mkdir $(WORKSPACE)/bin
+	g++ $(CUBE) $(LIB) $(CFLAGS) $(LDFLAGS) -o $(CUBE-BIN)
+	@echo ""
+	@$(CUBE-BIN)
 
 #Clean
 clean:

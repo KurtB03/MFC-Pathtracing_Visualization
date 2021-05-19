@@ -87,3 +87,14 @@ Scrum <3 GitHub & OpenGL für Dummies
 *Was könnte man bis zum Nächsten Sprint verbessern ?*  
 
 > die Arbeitzeit aufdröseln sodass wir nicht nur an einem Tag Arbeiten und wir sollten die Arbeitsteilung besser Planen.
+
+## Sprint 3
+
+ |Aufgaben Nr.| Zu Story Nr. | Aufgaben Inhalt | Zeitaufwand | Assinged To | Status | Definition von Fertig |
+ |:-:|:--:|:--:|:--:|:--:|:--:|:--:|
+ | 1 | 7 | Taschenrechner | 20std | Kurt | in Bearbeitung | Ein Funktionierender Taschenrechner |
+ | 2 | 9 | Handout | 5std | Kurt & Philipp | Ausstehend | Wenn man mit den Gegebenen Befehlen ein Kleines Programm schreiben kann |
+ | 3 | 11 | Info Blätter | ∞ | Kurt & Philipp | in Bearbeitung | [Wenn die ganzen Schmierzettel Ordentlich zusammengefasst sind](https://youtu.be/nW8dGwa2zRw?t=102) |
+ | 4 | 10 | Präsentation | 4std | Philipp | Ausstehend | Wenn alle bisherigen Arbeitsschritte in der Präsentation erklärt sind |
+ | 5 | 8 | FAQ | 3std | Patrick | Ausstehend | wennn eine Din A4 Seite voll Geschrieben ist |
+ | 6 |13| SCRUM | 2-3std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
