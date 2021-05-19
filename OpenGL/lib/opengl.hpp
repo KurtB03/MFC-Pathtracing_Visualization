@@ -1,6 +1,7 @@
-#include <GL/glut.h>
+// OpenGL bindings
 #include <GLFW/glfw3.h>
 
+// minimum aus der Standart Library
 #include <vector>
 #include <string>
 #include <fstream>
@@ -63,17 +64,34 @@ namespace gui {
             GLuint ID;
         
         public:
+            Shader(std::string path);
+            void compile();
             void load_source_file(std::string path);
+            std::string getSource();
     };
 
     class Window{
         private:
-            GLuint id;
-            Shape2D objects[];
+            std::vector<Shape2D> objects;
+            std::vector<Shader> shaders;
+            std::string name;
+
+            GLFWwindow* id;
+
 
         public:
-        int init();
-        int display();
+            int init();
+            int display();
+            int main_loop();
+            bool is_open();
+            bool key_pressed(int key);
+            vec2f cursor_pos();
+            void add_object(Shape2D s);
+            void add_shader(Shader s);
+            int load_new_Shader(std::string path);
+
+            Window();
+            Window(std::string name, std::string vert_path, std::string frag_path);
     };
 }
 

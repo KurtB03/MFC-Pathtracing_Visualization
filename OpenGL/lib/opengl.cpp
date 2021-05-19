@@ -55,7 +55,7 @@ namespace gui {
         source = "";
 
         if (myfile.is_open()){
-            while (getline(myfile,line)){
+            while (getline(myfile, line)){
                 source += line;
                 line = "";
         }
@@ -66,5 +66,61 @@ namespace gui {
             // TODO: Log Error
             return;
         }
+
+    }
+
+    std::string Shader::getSource(){
+        return source;
+    }
+
+    void Shader::compile(){
+
+    }
+
+    Shader::Shader(std::string path){
+        load_source_file(path);
+        compile();
+    }
+
+    //Window class
+
+    int Window::init(){
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
+        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
+        id = glfwCreateWindow(640, 480, name.c_str(), NULL, NULL);
+        int width, height;
+        glfwGetFramebufferSize(id, &width, &height);
+        glViewport(0, 0, width, height);
+        glfwSwapInterval(1);
+
+        return 0;
+    }
+
+    bool Window::is_open(){
+        return false;
+    }
+
+    bool Window::key_pressed(int key){
+        return (glfwGetKey(this->id, key) == GLFW_PRESS);
+    }
+
+    vec2f Window::cursor_pos(){
+        double x, y;
+        glfwGetCursorPos(this->id, &x, &y);
+        return vec2f{(float)x, (float)y};
+    }
+
+    void Window::add_shader(Shader s){
+        shaders.push_back(s);
+    }
+
+    Window::Window(){}
+
+    Window::Window(std::string name, std::string vert_path, std::string frag_path){
+        this->name = name;
+        add_shader(Shader(vert_path));
+        add_shader(Shader(frag_path));
+        init();
+    }
 
 }
