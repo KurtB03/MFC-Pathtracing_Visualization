@@ -1,10 +1,13 @@
-// OpenGL bindings
+// OpenGL 
+#include <GL/glew.h>
+#include <GL/glut.h>
 #include <GLFW/glfw3.h>
 
 // minimum aus der Standart Library
 #include <vector>
 #include <string>
 #include <fstream>
+#include <assert.h>
 
 #ifndef opengl_hpp
 #define opengl_hpp
@@ -30,6 +33,8 @@ namespace gui {
         GLfloat z;
         GLfloat a;
     };
+
+    int init();
 
     class Shape2D{
         protected:
@@ -61,7 +66,7 @@ namespace gui {
         private:
             std::string source;
             GLint type;
-            GLuint ID;
+            GLuint id;
         
         public:
             Shader(std::string path);
@@ -81,7 +86,7 @@ namespace gui {
 
         public:
             int init();
-            int display();
+            void display();
             int main_loop();
             bool is_open();
             bool key_pressed(int key);
@@ -92,6 +97,8 @@ namespace gui {
 
             Window();
             Window(std::string name, std::string vert_path, std::string frag_path);
+
+            ~Window();
     };
 }
 

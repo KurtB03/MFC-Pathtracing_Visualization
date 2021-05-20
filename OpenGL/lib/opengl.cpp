@@ -1,6 +1,19 @@
-#include "opengl.hpp"
+/*#include "opengl.hpp"
 
 namespace gui {
+
+    // Independant Functions
+
+    int init(){
+        glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // Set background color to black and opaque
+        glClearDepth(1.0f);                   // Set background depth to farthest
+        glEnable(GL_DEPTH_TEST);   // Enable depth testing for z-culling
+        glDepthFunc(GL_LEQUAL);    // Set the type of depth-test
+        glShadeModel(GL_SMOOTH);   // Enable smooth shading
+        glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);  // Nice perspective corrections
+
+        return 0;
+    }
 
     // Shape2D class
 
@@ -74,7 +87,18 @@ namespace gui {
     }
 
     void Shader::compile(){
+        id = glCreateShader(type);
+        const char* src = source.c_str();
+        glShaderSource(id, 1, &src, nullptr);
+        glCompileShader(id);
 
+        // Error handling
+        int result;
+        glGetShaderiv(id, GL_COMPILE_STATUS, &result);
+        if ( result == GL_FALSE ){
+            glDeleteShader(id) ;
+            return;
+        }
     }
 
     Shader::Shader(std::string path){
@@ -85,14 +109,43 @@ namespace gui {
     //Window class
 
     int Window::init(){
-        glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
-        glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
+        
         id = glfwCreateWindow(640, 480, name.c_str(), NULL, NULL);
-        int width, height;
-        glfwGetFramebufferSize(id, &width, &height);
-        glViewport(0, 0, width, height);
-        glfwSwapInterval(1);
+        glfwMakeContextCurrent(id);
+        glewInit();
 
+
+        return 0;
+    }
+
+    void Window::display(){
+        
+        glfwMakeContextCurrent(id);
+
+        glClearColor(0.f, 0.f, 0.f, 0.f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        glMatrixMode(GL_MODELVIEW);
+
+        glLoadIdentity();
+
+        glBegin(GL_TRIANGLES);
+        glColor3f(1.f, 0.f, 0.f);
+        glVertex3f(-5.f, 0.f, -4.f);
+        glColor3f(0.f, 1.f, 0.f);
+        glVertex3f(5.f, 0.f, -4.f);
+        glColor3f(0.f, 0.f, 1.f);
+        glVertex3f(0.f, 0.f, 6.f);
+        glEnd();  
+
+        glfwSwapBuffers(id);
+    }
+
+    int Window::main_loop(){
+        if(id == NULL){
+            return 6;
+        }
+
+        display();
         return 0;
     }
 
@@ -101,20 +154,25 @@ namespace gui {
     }
 
     bool Window::key_pressed(int key){
-        return (glfwGetKey(this->id, key) == GLFW_PRESS);
+        return false;
     }
 
     vec2f Window::cursor_pos(){
-        double x, y;
-        glfwGetCursorPos(this->id, &x, &y);
-        return vec2f{(float)x, (float)y};
+        return vec2f{(float)0, (float)0};
+    }
+
+    void Window::add_object(Shape2D s){
+        objects.push_back(s);
     }
 
     void Window::add_shader(Shader s){
         shaders.push_back(s);
     }
 
-    Window::Window(){}
+    Window::Window(){
+        name = "unnamed";
+        init();
+    }
 
     Window::Window(std::string name, std::string vert_path, std::string frag_path){
         this->name = name;
@@ -123,4 +181,9 @@ namespace gui {
         init();
     }
 
+    Window::~Window(){
+        
+    }
+
 }
+*/
