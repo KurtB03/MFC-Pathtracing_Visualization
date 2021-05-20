@@ -38,7 +38,7 @@ Um die Gewünschte Datei in Teams zu öffnen gehen sie auf Projektmappen-Explore
 
 ### Pull
 
-Pull = Updated den Eigenen Code zu der Neusten Version des Ausgewählten Branches 
+Pull = Updated den Eigenen Code zu der Neusten Version des Ausgewählten Branches
 
 um die Neuste Version des Repositorys zu bekommen verwenden wir die Funktion Pull diese Versteckt sich hinter diesem Icon in Git-Änderungen
 

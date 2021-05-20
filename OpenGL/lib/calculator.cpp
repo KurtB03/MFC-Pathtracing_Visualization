@@ -1,7 +1,6 @@
 #include "calculator.hpp"
 
 namespace calc{
-
     std::vector<term> split(std::string s){
         std::vector<term> result;
         std::string number = "0";
@@ -61,31 +60,8 @@ namespace calc{
         return result;
     }
 
-    std::string strip(std::string s){
-        std::string result = "";
-
-        for (char i : s){
-            switch (i)
-            {
-            case ' ' :
-            case '\n':
-            case '\t':
-            case '\r':
-            case '\f':
-            case '\v':
-                break;
-            
-            default:
-                result += i;
-                break;
-            }
-        }
-
-        return result;
-    }
-
     double calc(std::string s){
-        std::vector<term> parts = split(strip(s));
+        std::vector<term> parts = split(ownStrip(s));
         double result = 0;
         double last = 0;
 

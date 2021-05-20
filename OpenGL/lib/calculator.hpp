@@ -3,6 +3,11 @@
 
 #include <iostream>
 
+#include "util.hpp"
+
+#ifndef calc_hpp
+#define calc_hpp
+
 namespace calc{
     struct term{
         // operator
@@ -19,8 +24,9 @@ namespace calc{
     
 
     std::vector<term> split(std::string s);
-    std::string strip(std::string s);
     double calc(std::string s);
     double eval(term t);
     term clearTerm();
 }
+
+#endif

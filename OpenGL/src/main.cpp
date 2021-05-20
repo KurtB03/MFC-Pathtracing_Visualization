@@ -1,15 +1,30 @@
 #include <iostream>
 
 #include "../lib/calculator.hpp"
+#include "../lib/opengl.hpp"
+#include "../lib/util.hpp"
 
 int main(){
-    calc::term t;
-    t.op = '*';
-    t.a = std::stod("0.25");
-    t.b = 4;
-    t.b_front = 1;
 
-    std::cout << calc::eval(t) << std::endl;
-    std::cout << calc::strip("Te   s \n t") << std::endl;
-    std::cout << calc::calc("1 + 2 + 3") << std::endl;
+    if(!glfwInit()){
+        return -1;
+    }
+    
+    gui::Window window("calc", "shader/SimpleVerexShader.vert", "shader/SimpleFragmentShader.frag");
+    window.main_loop();
+
+    return 0;
+}
+
+int gui::Window::main_loop(){
+
+    while (!glfwWindowShouldClose(id))
+    {
+        std::cout << "loopender loop" << std::endl;
+        glfwSwapBuffers(id);
+    }
+
+    glfwDestroyWindow(id);
+    std::cout << "Window Closed" << std::endl;
+    return 0;
 }

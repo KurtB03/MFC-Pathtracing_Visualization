@@ -15,7 +15,7 @@ _______________
 
 ### [CD/CI](pipeline.md)
 
-### [OpenGL](opengl.md)
+### [OpenGL](OpenGL/opengl.md)
 
 ### [Taschenrechner](taschenrechner.md)
 
