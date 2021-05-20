@@ -98,3 +98,17 @@ Scrum <3 GitHub & OpenGL für Dummies
  | 4 | 10 | Präsentation | 4std | Philipp | Ausstehend | Wenn alle bisherigen Arbeitsschritte in der Präsentation erklärt sind |
  | 5 | 8 | FAQ | 3std | Patrick | Ausstehend | wennn eine Din A4 Seite voll Geschrieben ist |
  | 6 |13| SCRUM | 2-3std. | Patrick & Kurt | In Bearbeitung | Ewiger Kreislauf |
+
+ ## Sprint 3 Auswertung
+
+ *Gibt es ein funktionstüchtiges Produktinkrement am Ende des Sprints ?*
+>Ansich ja jedoch haben wir noch einige Probleme den Taschenrechner auf Windows zum Laufen zu bringen und es müssen noch ein Paar Einträge umgeschrieben werden.
+
+ *Welchen Produktwert hat dieses Inkrement für das gesamte Produkt ?*
+>Dieses Inkrement ist Sozusagen der Abschluss das heißt er Verknüpft die Sprints davor und glättet nochmal die Ecken und Kanten ab.
+
+## Sprint 3 Retroperspektive
+
+*Wurde das Sprint-Ziel mit dem Produktinkrement erreicht ?*  
+
+> Im Großen ganzen schon es gibt noch ein paar Kleinigkeiten die zu machen sind jedoch haben wir den Großteil Geschafft.
