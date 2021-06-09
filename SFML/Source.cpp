@@ -2,6 +2,7 @@
 
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 
 #include "Calc.hpp"
 
@@ -36,6 +37,13 @@ int main() {
     sf::Text text_in;
     sf::Font font;
     font.loadFromFile("default.ttf");
+
+    //sound
+    sf::SoundBuffer autsch;
+    autsch.loadFromFile("autsch.WAV");
+    sf::Sound sound;
+    sound.setBuffer(autsch);
+
 
     std::string term = "";
     std::string result = "";
@@ -121,6 +129,7 @@ int main() {
                 result = "=";
                 result += std::to_string(calc::basic(term));
                 term = "";
+                sound.play();
                 continue;
             }
                 

@@ -19,11 +19,11 @@ Scrum <3 GitHub & OpenGL für Dummies
 |4   | OpenGL | um Hoffentlich MFC abzuschaffen | I shall claim full amends for every fall and stubbed toe, if you do not lead us well. | 10 | 9 | Austehend | - |
 |5   | Make files Grundlagen | Anweisungen für Pipelines und Generalisierung | Taking the Hobbits to Isengard | 7 | 5 | Austehend | - |
 |6   | SCRUM Wiederholung | um an Beispielen Anzuzeigen wie man Scrum in Github verwenden kann | A wizard is never late, Frodo Baggins. Nor is he early; he arrives precisely when he means to. | 1 | 1 | Austehend | - |
-|7   | Beispiel Projekt : Taschenrechner in Open Gl | Um Darzustellen wie man mit OpenGl Arbeiten kann | Certainty of death. Small chance of success. What are we waiting for? | 8 | 10| Austehend | 4 |
+|7   | Beispiel Projekt : Taschenrechner in Open Gl | Um Darzustellen wie man mit OpenGl Arbeiten kann | Certainty of death. Small chance of success. What are we waiting for? | 8 | 10| Done | 4 |
 |8   | FAQ der größten Fehler | um hilfe zu leisten wie man den Start weniger Holbrig macht | "Are you frightened?" "Yes." "Not nearly frightened enough." | 6 | 7 | Austehend | - |
 |9   | Hand-Out, der Wichtigsten Befehle | um den Einstieg zu Erleichtern | Nine companions. So be it. | 4 | 3 | Austehend | - |
 |10  | Präsentation | Vorstellung des Projektes, unterrichten der Klasse | We swears, to serve the master of the Precious. We will swear on… on the Precious | 9 | 2 | Austehend | 1, 2, 4, 5 |
-|11  | Redakionelle aufbereitung | Ergebnisse Festhalten für die Nachwelt - Herr. Schwaigers Job machen | Oh, it’s quite simple. If you are a friend, you speak the password, and the doors will open | 4 | 7 | imagined | 1-9 (+ 12) |
+|11  | Redakionelle aufbereitung | Ergebnisse Festhalten für die Nachwelt - Herr. Schwaigers Job machen | Oh, it’s quite simple. If you are a friend, you speak the password, and the doors will open | 4 | 7 | in Bearbeitung | 1-9 (+ 12) |
 |12 | Dokumetation | Zum Kichern und Erinnern | It's the job that's never started as takes longest to finish. | 10 | 0 | Beiläufig | **∞**|
 
 ## Sprint 1

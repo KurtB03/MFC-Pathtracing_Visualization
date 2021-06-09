@@ -184,7 +184,7 @@ run: build # Erst muss das Programm natürlich compiliert werden.
 
 ```bash
 clean:
-        -rm -Rrf $(WORKSPACE)/bin # Alles muss raus.
+        -rm -Rrf $(WORKSPACE)/bin # Alles muss raus. Ausverkauf bei Roller.
 ```
 
 > Pro Tip : Versucht euch schlechte humoristische Anmerkungen zu verkneifen.

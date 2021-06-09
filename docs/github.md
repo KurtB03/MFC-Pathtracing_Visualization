@@ -100,3 +100,7 @@ nun müssen sie nur noch commiten und pushen, dies geht in diesem fall über den
 und zu Guter letzt müssen sie nur noch Pushen sodass die Dateien auf dem Repo landen.
 
 ![Picture missing](assets/pictures/Push.jpg)
+
+### .gitignore
+
+.gitignore ist eine textdatei, die im ordner des repositorys abgelegt wird. In dieser Text datei werden dateien und order spezifiziert, die nicht syncronisiert werden sollen, dass ist insbesondere bei öffentlichen repos ist das wichtig. Üblicherweise, werden cache-files, und compiler zwischen schritte z.B. .o dateien, sowie dateien, die sensible informationen enthalten ewta api-keys, passwörter oder nutzerdaten enthalten hier eingetragen.
