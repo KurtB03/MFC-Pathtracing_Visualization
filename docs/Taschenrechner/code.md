@@ -1,12 +1,13 @@
+```c++
 #include <iostream>
 
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 
 #include "Calc.hpp"
+```
 
-// Muss im Release mode Compiliert werden !!!!!
-
+```c++
 int main() {
     //std::cout << "Hello" << std::endl;
 
@@ -20,7 +21,9 @@ int main() {
     const int input_hight = 40;
     const int output_with = input_with;
     const int output_hight = 60;
+```
 
+```c++
     //bool block_input = false;
     //bool pause = false;
     bool show_clear = true;
@@ -85,7 +88,9 @@ int main() {
     key_lables[3][1].setString("*");
     key_lables[3][2].setString("-");
     key_lables[3][3].setString("+");
+```
 
+```c++
     while (window.isOpen()){
         sf::Event event;
         while (window.pollEvent(event))
@@ -125,7 +130,11 @@ int main() {
             }
                 
         }
+```
 
+        `if (keys[0][0].getGlobalBounds().contains(static_cast<float>(localPosition.x), static_cast<float>(localPosition.y)) || sf::Keyboard::isKeyPressed(sf::Keyboard::Numpad7)) {`
+        
+```c++
         if (keys[0][0].getGlobalBounds().contains(static_cast<float>(localPosition.x), static_cast<float>(localPosition.y)) || sf::Keyboard::isKeyPressed(sf::Keyboard::Numpad7)) {
             term += "7";
             while (sf::Mouse::isButtonPressed(sf::Mouse::Left) || sf::Keyboard::isKeyPressed(sf::Keyboard::Numpad7)) {
@@ -247,6 +256,10 @@ int main() {
         text_out.setString(result);
         text_out.setCharacterSize((output_hight * 0.99) / (1 + (0.04 * result.length())));
 
+```
+
+
+```c++
         window.clear();
         for (int i = 0; i < keys_x; i++) {
             for (int j = 0; j < keys_y; j++) {
@@ -263,3 +276,4 @@ int main() {
 
 	return 0;
 }
+```
