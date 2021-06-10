@@ -7,6 +7,7 @@
 #include "Calc.hpp"
 
 // Muss im Release mode Compiliert werden !!!!!
+// Dependency : OpenAL (für Sound)
 
 int main() {
     //std::cout << "Hello" << std::endl;

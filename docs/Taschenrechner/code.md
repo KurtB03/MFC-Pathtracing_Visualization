@@ -124,7 +124,6 @@ Endlich ist der Augenblick gekommen, an dem alle Vorbereitungen getroffen sind u
 ```
 
 Jetzt gehts ans eingemachte, und wir lassen die Nutzerinnen min unserem Programm interagieren.
-
         
 ```c++
 
