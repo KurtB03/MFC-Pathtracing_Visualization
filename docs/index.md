@@ -1,6 +1,7 @@
 # Hello World
 
 ### [Scrum](scrum.md)
+### [Präsi](https://docs.google.com/presentation/d/1szAaZPJyswq12b_ctc77jqJECjJSf4n0xbY2StMdX94/edit?usp=sharing)
 
 ![Good Code](assets/pictures/good_code-xkcd.png)
 _______________
