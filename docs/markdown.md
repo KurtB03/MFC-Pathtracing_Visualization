@@ -12,9 +12,10 @@ Es ist zudem auch möglich die Beiden Varianten zu Kombinieren um Entweder einen
 Um Bilder Einzufügen benutzt man ein ! Vor dem Optionalen Alternativen Text und Zuletzt dann noch dem Pfad zu dem Bild. ZmB: ( ![Katzenbild](/images/katzen.png) ) Das Vormat um Etwas Einzufügen ist ![Optionaler Text falls man es nicht Benennen möchte einfach Leer lassen](Pfad zum Bild)
 
 Um eine Tabelle Darzustellen benutz man – und | . Die - Trennen die Zeilen und die | die Spalten.
-Bsp:    | Erste Ueberschrift | Zweite Ueberschrift | Dritte Ueberschrift |
-	|:------------------:|:-------------------:|:-------------------:|
-	| Erster Inhalt | Zweiter Inhalt | Dritter Inhalt |
-	| Erster Inhalt Zeile 2 | Zweiter Inhalt Zeile 2 | Dritter Inhalt Zeile 2 |
+Bsp:
+| Erste Ueberschrift | Zweite Ueberschrift | Dritte Ueberschrift |  
+|:------------------:|:-------------------:|:-------------------:|  
+| Erster Inhalt | Zweiter Inhalt | Dritter Inhalt |  
+| Erster Inhalt Zeile 2 | Zweiter Inhalt Zeile 2 | Dritter Inhalt Zeile 2 |  
          
 
